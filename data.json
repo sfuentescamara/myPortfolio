@@ -1,0 +1,108 @@
+{
+    "Proyectos": {
+        "Ejemplo": {
+            "Título": "Sistema de Monitoreo de Producción (Empresa confidencial)",
+            "Fecha": "",
+            "Rol": "Backend Developer",
+            "Tecnologías": "Python, FastAPI, PostgreSQL, Docker",
+            "Descripción": "Participé en el desarrollo de una plataforma interna para supervisar procesos de producción en tiempo real, integrando datos de sensores industriales. Diseñé la arquitectura de la API y optimicé consultas complejas a la base de datos."
+        },
+        "Template": {
+            "Título": "",
+            "Fecha": "",
+            "Rol": "",
+            "Tecnologías": "",
+            "Descripción": ""
+        },
+        "ConteoPersonas": {
+            "Título": "Módulo para el conteo de personas",
+            "Fecha": "Julio-Agosto del 2025",
+            "Rol": "IA Developer",
+            "Tecnologías": "Python, YOLLO11, MongoDB, ffmpeg, Shared Memory",
+            "Descripción": "Desarrollo de un módulo para el conteo de personas utilizando modelos de IA en NPU de sistamas edge a tiempo real, soportando diferentes fuentes de vídeo gracias a ffmpeg y memoria compartida."
+        },
+        "TrackingVehiculos": {
+            "Título": "Módulo de seguimineto de objetos",
+            "Fecha": "Marzo-Julio del 2025",
+            "Rol": "Software developer",
+            "Tecnologías": "C++, MongoDB, Filtro Kalman",
+            "Descripción": "Desarrollo de un módulo para realizar el traking de diferentes objetos simultaneamente en la imagen a tiempo real"
+        },
+        "LecturaMatriculas": {
+            "Título": "Lector de matrículas",
+            "Fecha": "2024-2025",
+            "Rol": "Software developer, IA developer",
+            "Tecnologías": "C++, Python, MongoDB, ffmpeg, GenICam, Detector de objetos, OCR",
+            "Descripción": "Participación en un proyecto para la letura de matrículas de vehículos en tiempo real y dispositivos edge"
+        },
+        "Helios": {
+            "Título": "Fine-Tunning de modelos",
+            "Fecha": "Febrero-Marzo de 2025",
+            "Rol": "IA Developer",
+            "Tecnologías": "Python, Docker",
+            "Descripción": "Re-entrenamiento de modelos y fine-tunning en OCR, detección de objetos y compilación en dispositivos edge (NPU)"
+        },
+        "API": {
+            "Título": "Servicio web",
+            "Fecha": "2024-2025",
+            "Rol": "Software developer",
+            "Tecnologías": "Python, JavaScript, FastAPI, MongoDB, Asyncio, socket, websocket, webRTC, pipes",
+            "Descripción": "Desarrollo de un servicio web, backend y frontend, para comunicación entre procesos, visualización y gestión de datos"
+        },
+
+        "GapAndFlush": {
+            "Título": "Medición con visión por ordenador",
+            "Fecha": "2022-2023",
+            "Rol": "Software developer",
+            "Tecnologías": "Python, Flask, PostgreSQL, Docker",
+            "Descripción": "Participación en un proyecto para la obtención de métricas en imágenes para control de calidad de productos en una cadena de producción"
+        },
+        "CollarGPS": {
+            "Título": "Collar GPS",
+            "Fecha": "2021",
+            "Rol": "Software developer, firmware developer, hardware",
+            "Tecnologías": "C, Python, IoT, GSM, Lora, Sigfox, uControladores",
+            "Descripción": "Participación en un proyecto para la obtención de datos de sensores (GPS, temperatura, acelerómetro) y envío por radio para su gestión"
+        },
+        "AutoPesaje": {
+            "Título": "Básculas autopesaje",
+            "Fecha": "2021",
+            "Rol": "Software developer, hardware",
+            "Tecnologías": "Python, IoT, uControladores",
+            "Descripción": "Participación en un proyecto para seguir el crecimiento de animales de forma autónoma"
+        },
+        "IDIoT": {
+            "Título" : "I+D en proyectos IoT",
+            "Fecha": "2021",
+            "Rol": "Software developer, hardware",
+            "Tecnologías": "C, Python, Arduino, Raspberry, uControladores, impresión 3D, ...",
+            "Descripción": "Búsqueda y desarrollo de la viablididad de nuevos proyectos IoT, diseñando, desarrollando y probando el producto"
+        },
+        "Domotica": {
+            "Título": "Proyectos de Dómotica",
+            "Fecha": "-",
+            "Rol": "Software developer, hardware",
+            "Tecnologías": "Raspberry, ESP, IoT",
+            "Descripción": "Instalación de multiples dispositivos de domótica como luces, enchufes inteligentes, cámaras de seguridad, vídeo porteros, controladores para puertas de garaje. Estos proyectos incluyen la implementación de sistemas de control por voz. Además de crear un pequeño asistente vinculado con Telegram, lo que permite la comunicación y el control de los dispositivos incluso cuando no estoy conectado a la red local o VPN."
+        },
+        "ExcedenteSolar": {
+            "Título": "Control de excedentes de energía solar",
+            "Fecha": "2023",
+            "Rol": "Software developer, hardware",
+            "Tecnologías": "Raspberry",
+            "Descripción": "Desarrollo y puesta en marcha un sistema para monitorear la producción y consumo de energía en paneles solares en un hogar, al mismo tiempo que se controlaba el excedente de energía para su uso en la climatización de la vivienda."
+        },
+        "TFG": {
+            "Título": "Control plataforma Raspberry Pi mediante reconocimiento visual",
+            "Fecha": "2020",
+            "Rol": "Software developer, IA developer",
+            "Tecnologías": "Python, pytorch, tensorflow",
+            "Descripción": "Sistema de visión por computador capaz de reconocer gestos mediante técnicas de reconocimiento visual y aprendizaje automático. Proyecto final de grado calificado con matrícula de honor."
+        }
+    },
+
+    "Certificaciones": {
+        
+    }
+
+}
