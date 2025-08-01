@@ -5,6 +5,6 @@ from fastapi import WebSocket
 import time
 from typing import Union, List, Any, Dict
 
-from app.core.config import *
+from .config import *
 
 router = APIRouter()
