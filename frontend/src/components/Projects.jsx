@@ -26,31 +26,39 @@ const Projects = ({ language, projects }) => {
                     </span>
                   ))}
                 </div>
-
                 <div className="flex space-x-4 pt-4">
                   {project.code ? (
-                    <a href={project.github} className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors">
+                    <a
+                      href={project.code}
+                      className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors"
+                      target="_blank" rel="noopener noreferrer"
+                    >
                       <Github size={16} />
                       <span className="text-sm">{projects.code}</span>
                     </a>
                   ) : (
-                    <a className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors">
+                    <span className="flex items-center space-x-2 text-white/60 opacity-50">
                       <Github size={16} />
-                      <span className="text-sm">Coming soon</span>
-                    </a>
+                      <span className="text-sm">{language === 'es' ? 'Próximamente' : 'Coming soon'}</span>
+                    </span>
                   )}
                   {project.demo ? (
-                    <a href={project.demo} className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors">
+                    <a
+                      href={project.demo}
+                      className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors"
+                      target="_blank" rel="noopener noreferrer"
+                    >
                       <ExternalLink size={16} />
                       <span className="text-sm">{projects.demo}</span>
                     </a>
                   ) : (
-                    <a className="flex items-center space-x-2 text-white/60 hover:text-white transition-colors">
+                    <span className="flex items-center space-x-2 text-white/60 opacity-50">
                       <ExternalLink size={16} />
-                      <span className="text-sm">Coming soon</span>
-                    </a>
+                      <span className="text-sm">{language === 'es' ? 'Próximamente' : 'Coming soon'}</span>
+                    </span>
                   )}
                 </div>
+
               </div>
             </div>
           ))}
