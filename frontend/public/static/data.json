@@ -87,7 +87,7 @@
               "demo": ""
           },
           "project2": {
-              "title": "Módulo de seguimineto de objetos",
+              "title": "Módulo de seguimiento de objetos",
               "date": "Marzo-Julio del 2025",
               "rol": "Software developer",
               "tech": ["C++", "MongoDB", "Filtro Kalman"],
