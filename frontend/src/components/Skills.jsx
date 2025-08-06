@@ -1,3 +1,4 @@
+
 const Skills = ({ language, title, skills, isVisible }) => {
   return (
     <section id={language === 'es' ? 'habilidades' : 'skills'} className="py-20 px-4 bg-black/20">

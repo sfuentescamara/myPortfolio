@@ -13,20 +13,21 @@ const About = ({ language, data }) => {
             <p className="text-lg text-white/80 leading-relaxed">
               {data.p1}
             </p>
-
             <p className="text-lg text-white/80 leading-relaxed">
               {data.p2}
             </p>
-
             <p className="text-lg text-white/80 leading-relaxed">
               {data.p3}
+            </p>
+            <p className="text-lg text-white/80 leading-relaxed">
+              {data.p4}
             </p>
 
             <div className="grid grid-cols-1 gap-6 mt-8">
               {/* <div className="text-center p-6 bg-white/5 rounded-lg backdrop-blur-sm">
-                            <div className="text-3xl font-bold text-blue-400 mb-2">10+</div>
-                            <div className="text-white/70">{data.projects}</div>
-                            </div> */}
+                <div className="text-3xl font-bold text-blue-400 mb-2">10+</div>
+                <div className="text-white/70">{data.projects}</div>
+                </div> */}
               <div className="text-center p-6 bg-white/5 rounded-lg backdrop-blur-sm">
                 <div className="text-3xl font-bold text-gray-400 mb-2">5+</div>
                 <div className="text-white/70">{data.years}</div>

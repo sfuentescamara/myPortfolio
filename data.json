@@ -50,7 +50,8 @@
         "title": "Sobre Mí",
         "p1": "Soy un ingeniero de software apasionado por la inteligencia artificial y el machine learning, con más de 5 años de experiencia desarrollando soluciones innovadoras en proyectos de computer vision, edge computing y cloud computing.",
         "p2": "Mi experiencia abarca desde el diseño de arquitecturas hasta la implementación en producción, siempre enfocándome en crear soluciones escalables y eficientes.",
-        "p3": "Complementación con diseño hardware, mecánico y web en algunos casos. Diseño, entrenamiento y uso de modelos de ML para la detección de objetos, clasificación de imágenes y OCR.",
+        "p3": "Mi trayectoria incluye colaboraciones exitosas en el desarrollo de proyectos de IoT y sistemas embebidos, complementación con diseño hardware, mecánico y web en algunos casos y diseño, entrenamiento y uso de modelos de ML para la detección de objetos, clasificación de imágenes y OCR.",
+        "p4": " Mi objetivo es seguir creciendo en el ámbito de la inteligencia artificial y el aprendizaje automático para aplicar estas tecnologías en soluciones de vanguardia.",
         "projects": "Proyectos ML",
         "years": "Años Experiencia",
         "card1": {
@@ -188,30 +189,47 @@
       },
       "experience": {
         "title": "Experiencia Profesional",
-        "exp1": {
-          "position": "Senior AI Engineer",
-          "company": "TechAI Solutions",
-          "period": "2022 - Presente",
-          "desc": "Desarrollo de modelos de ML para análisis predictivo y sistemas de recomendación. Liderazgo técnico en proyectos de IA."
-        },
-        "exp2": {
-          "position": "Machine Learning Engineer",
-          "company": "DataTech Corp",
-          "period": "2020 - 2022",
-          "desc": "Implementación de pipelines de ML, optimización de modelos y desarrollo de APIs para modelos en producción."
-        },
-        "exp3": {
-          "position": "Full Stack Developer",
-          "company": "StartupAI",
-          "period": "2018 - 2020",
-          "desc": "Desarrollo full-stack con enfoque en integración de servicios de IA y machine learning."
+        "list": {
+          "exp1": {
+            "position": "Computer Vision Engineer",
+            "company": "Grupo Etra",
+            "period": "2023 - Presente",
+            "desc": [
+              "Desarrollo de un software para captura y procesado de video a tiempo real. Optimizado e implementado en dispositivos edge con poca latencia",
+              "Desarrollo y ajuste de modelos de IA (detección y OCR) en aceleradores de IA y NPU",
+              "Gestión y monitorización de dispositivos edge. CI/CD con Docker y Ansible",
+              "Desarrollo full-stack de servidor web con FastAPI"
+            ]
+          },
+          "exp2": {
+            "position": "Software Engineer",
+            "company": "Capgemini España SL",
+            "period": "2022 - 2023",
+            "desc": [
+              "Procesamiento de imágenes para obtención de métricas",
+              "Metodología DevOps, CI/CD y control de versiones con Git",
+              "Diseño de estructuras software para la posterior implementación de funcionalidades",
+              "Tratamiento de datos con librerías como numpy y pandas para modelos ML"
+            ]
+          },
+          "exp3": {
+            "position": "Ingeniero Electrónico y Desarrollador Firmware",
+            "company": "Digitanimal",
+            "period": "2020 - 2022",
+            "desc": [
+              "Desarrollo en sistemas embebidos y programación de microcontroladores",
+              "Tratamiento de datos generados por sensores",
+              "Diseño de circuitos electrónicos",
+              "Diseño de prototipos para el encapsulado de hardware",
+              "Impresión 3D de prototipos (filamento/resina)"
+            ] 
+          }
         }
       },
       "contact": {
-        "title": "¿Interesado en colaborar?",
-        "subtitle": "Estoy siempre abierto a nuevos proyectos y oportunidades emocionantes. ¡Hablemos sobre cómo puedo ayudar a hacer realidad tu próxima idea con IA!",
-        "email": "Enviar Email",
-        "footer": "Construido con React y mucho ☕"
+        "title": "¿Interesado en mi perfil?",
+        "subtitle": "Estoy siempre abierto a nuevos proyectos y oportunidades. ¡Hablemos sobre cómo puedo ayudar a hacer realidad tu próxima idea!",
+        "email": "Enviar Email"
       }
     },
     "en": {
@@ -240,13 +258,15 @@
       },
       "about": {
         "title": "About Me",
-        "p1": "I am a software engineer passionate about artificial intelligence and machine learning, with over 5 years of experience developing innovative solutions that positively impact businesses.",
-        "p2": "My experience spans from designing ML architectures to implementing models in production, always focusing on creating scalable and efficient solutions.",
+        "p1": "I am a software engineer passionate about artificial intelligence and machine learning, with over 5 years of experience developing innovative solutions in computer vision, edge computing, and cloud computing projects.",
+        "p2": "My experience ranges from architectural design to production implementation, always focusing on creating scalable and efficient solutions.",
+        "p3": "My background includes successful collaborations in the development of IoT and embedded systems projects, complemented in some cases by hardware, mechanical, and web design, as well as the design, training, and use of ML models for object detection, image classification, and OCR.",
+        "p4": "My goal is to continue growing in the field of artificial intelligence and machine learning to apply these technologies in cutting-edge solutions.",
         "projects": "ML Projects",
         "years": "Years Experience",
         "card1": {
           "title": "Machine Learning",
-          "desc": "Development of predictive models and recommendation systems"
+          "desc": "Development of predictive models, detection, and classification"
         },
         "card2": {
           "title": "Full Stack Development",
@@ -266,47 +286,161 @@
       },
       "projects": {
         "title": "Featured Projects",
-        "project1": {
-          "title": "AI Recommendation System",
-          "desc": "Personalized recommendation system using deep learning and natural language processing for e-commerce."
-        },
-        "project2": {
-          "title": "Intelligent Chatbot",
-          "desc": "Conversational chatbot with context understanding using transformers and fine-tuning of LLM models."
-        },
-        "project3": {
-          "title": "IoT Predictive Analytics",
-          "desc": "Predictive analytics platform for IoT sensors using machine learning and real-time visualization."
-        },
-        "code": "Code",
-        "demo": "Demo"
+        "list": {
+          "project1": {
+            "title": "People Counting Module",
+            "date": "July-August 2025",
+            "rol": "AI Developer",
+            "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
+            "desc": "Development of a module for people counting using AI models on NPUs of edge systems in real time, supporting different video sources thanks to ffmpeg and shared memory",
+            "code": "",
+            "demo": ""
+          },
+          "project2": {
+            "title": "Object Tracking Module",
+            "date": "March-July 2025",
+            "rol": "Software Developer",
+            "tech": ["C++", "MongoDB", "Kalman Filter"],
+            "desc": "Development of a module to perform real-time tracking of multiple objects simultaneously in the image",
+            "code": "",
+            "demo": ""
+          },
+          "project3": {
+            "title": "License Plate Reader",
+            "date": "2024-2025",
+            "rol": "Software Developer, AI Developer",
+            "tech": ["C++", "Python", "MongoDB", "ffmpeg", "GenICam", "Object Detector", "OCR"],
+            "desc": "Participation in a project for real-time vehicle license plate recognition on edge devices",
+            "code": "",
+            "demo": ""
+          },
+          "project4": {
+            "title": "Model Fine-Tuning",
+            "date": "February-March 2025",
+            "rol": "AI Developer",
+            "tech": ["Python", "Docker"],
+            "desc": "Retraining and fine-tuning of models for OCR, object detection, and deployment on edge devices (NPU)",
+            "code": "",
+            "demo": ""
+          },
+          "project5": {
+            "title": "Web Service",
+            "date": "2024-2025",
+            "rol": "Software Developer",
+            "tech": ["Python", "JavaScript", "FastAPI", "MongoDB", "Asyncio", "socket", "websocket", "webRTC", "pipes"],
+            "desc": "Development of a web service, backend and frontend, for inter-process communication, data visualization, and management",
+            "code": "",
+            "demo": ""
+          },
+          "project6": {
+            "title": "Computer Vision-Based Measurement",
+            "date": "2022-2023",
+            "rol": "Software Developer",
+            "tech": ["Python", "Flask", "PostgreSQL", "Docker"],
+            "desc": "Participation in a project for obtaining image-based metrics for product quality control on a production line",
+            "code": "",
+            "demo": ""
+          },
+          "project7": {
+            "title": "GPS Collar",
+            "date": "2021",
+            "rol": "Software Developer, Firmware Developer, Hardware",
+            "tech": ["C", "Python", "IoT", "GSM", "Lora", "Sigfox", "Microcontrollers"],
+            "desc": "Participation in a project to collect sensor data (GPS, temperature, accelerometer) and transmit it via radio for management",
+            "code": "",
+            "demo": ""
+          },
+          "project8": {
+            "title": "Self-Weighing Scales",
+            "date": "2021",
+            "rol": "Software Developer, Hardware, mySQL",
+            "tech": ["Python", "IoT", "Microcontrollers"],
+            "desc": "Participation in a project to autonomously monitor the growth of animals",
+            "code": "",
+            "demo": ""
+          },
+          "project9": {
+            "title": "R&D in IoT Projects",
+            "date": "2021",
+            "rol": "Software Developer, Hardware",
+            "tech": ["C", "Python", "Arduino", "Raspberry", "Microcontrollers", "3D Printing"],
+            "desc": "Research and development of the feasibility of new IoT projects, designing, developing, and testing the product",
+            "code": "",
+            "demo": ""
+          },
+          "project10": {
+            "title": "Home Automation Projects",
+            "date": "-",
+            "rol": "Software Developer, Hardware",
+            "tech": ["Raspberry", "ESP", "IoT"],
+            "desc": "Installation of multiple home automation devices such as lights, smart plugs, security cameras, video intercoms, and garage door controllers. These projects include the implementation of voice control systems, as well as a small assistant linked to Telegram, allowing communication and device control even when not connected to the local network or VPN",
+            "code": "",
+            "demo": ""
+          },
+          "project11": {
+            "title": "Solar Energy Surplus Control",
+            "date": "2023",
+            "rol": "Software Developer, Hardware",
+            "tech": ["Raspberry", "mySQL"],
+            "desc": "Development and deployment of a system to monitor energy production and consumption in home solar panels, while controlling the energy surplus for use in climate control",
+            "code": "",
+            "demo": ""
+          },
+          "project12": {
+            "title": "Raspberry Pi Platform Control via Visual Recognition",
+            "date": "2020",
+            "rol": "Software Developer, AI Developer",
+            "tech": ["Python", "pytorch", "tensorflow"],
+            "desc": "Computer vision system capable of gesture recognition using visual recognition and machine learning techniques. Final degree project graded with honors",
+            "code": "",
+            "demo": ""
+          }
+        }
+
       },
       "experience": {
         "title": "Professional Experience",
-        "exp1": {
-          "position": "Senior AI Engineer",
-          "company": "TechAI Solutions",
-          "period": "2022 - Present",
-          "desc": "Development of ML models for predictive analytics and recommendation systems. Technical leadership in AI projects."
-        },
-        "exp2": {
-          "position": "Machine Learning Engineer",
-          "company": "DataTech Corp",
-          "period": "2020 - 2022",
-          "desc": "Implementation of ML pipelines, model optimization and development of APIs for production models."
-        },
-        "exp3": {
-          "position": "Full Stack Developer",
-          "company": "StartupAI",
-          "period": "2018 - 2020",
-          "desc": "Full-stack development with focus on AI and machine learning services integration."
+        "list": {
+          "exp1": {
+            "position": "Computer Vision Engineer",
+            "company": "Grupo Etra",
+            "period": "2023 - Present",
+            "desc": [
+              "Development of software for real-time video capture and processing. Optimized and implemented on edge devices with low latency",
+              "Development and fine-tuning of AI models (detection and OCR) on AI accelerators and NPUs",
+              "Management and monitoring of edge devices. CI/CD with Docker and Ansible",
+              "Full-stack development of a web server using FastAPI"
+            ]
+          },
+          "exp2": {
+            "position": "Software Engineer",
+            "company": "Capgemini España SL",
+            "period": "2022 - 2023",
+            "desc": [
+              "Image processing for metric extraction",
+              "DevOps methodology, CI/CD, and version control with Git",
+              "Design of software structures for subsequent feature implementation",
+              "Data processing using libraries such as numpy and pandas for ML models"
+            ]
+          },
+          "exp3": {
+            "position": "Electronics Engineer and Firmware Developer",
+            "company": "Digitanimal",
+            "period": "2020 - 2022",
+            "desc": [
+              "Development on embedded systems and microcontroller programming",
+              "Processing of sensor-generated data",
+              "Design of electronic circuits",
+              "Prototype design for hardware enclosures",
+              "3D printing of prototypes (filament/resin)"
+            ]
+          }
         }
       },
       "contact": {
-        "title": "Interested in collaborating?",
-        "subtitle": "I am always open to new projects and exciting opportunities. Let\"s talk about how I can help bring your next AI idea to life!",
-        "email": "Send Email",
-        "footer": "Built with React and lots of ☕"
+        "title": "Interested in my profile?",
+        "subtitle": "I am always open to new projects and exciting opportunities. Let\"s talk about how I can help bring your next idea to life!",
+        "email": "Send Email"
       }
     }
 }

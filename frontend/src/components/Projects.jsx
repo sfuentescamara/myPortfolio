@@ -1,6 +1,5 @@
 import { Github, ExternalLink } from 'lucide-react';
 
-
 const Projects = ({ language, projects }) => {
   return (
     <section id={language === 'es' ? 'proyectos' : 'projects'} className="py-20 px-4">
@@ -11,9 +10,9 @@ const Projects = ({ language, projects }) => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Object.entries(projects.list).map(([key, project]) => (
-            <div key={project} className="bg-white/5 rounded-lg overflow-hidden backdrop-blur-sm hover:scale-105 transition-transform duration-300">
+            <div key={key} className="bg-white/5 rounded-lg overflow-hidden backdrop-blur-sm hover:scale-105 transition-transform duration-300">
               <div className="h-48 bg-gradient-to-br from-blue-500/20 to-gray-500/20 flex items-center justify-center">
-                <div className="text-6xl">🚀</div>
+                {/* <div className="text-6xl"> Snapshot here </div> */}
               </div>
 
               <div className="p-6 space-y-4">
