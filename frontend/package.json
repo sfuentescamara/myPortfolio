@@ -14,11 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "copy-data": "copy ../data.json public/data.json",
-    "start": "npm run copy-data && react-scripts start",
-    "build": "npm run copy-data && react-scripts build",
-    "test": "npm run copy-data && react-scripts test",
-    "eject": "npm run copy-data && react-scripts eject"
+    "start": "npm react-scripts start",
+    "build": "npm react-scripts build",
+    "test": "npm react-scripts test",
+    "eject": "npm react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

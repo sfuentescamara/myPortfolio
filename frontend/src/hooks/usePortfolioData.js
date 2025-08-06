@@ -4,7 +4,7 @@ export default function usePortfolioData() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch('/static/data.json')
       .then((res) => res.json())
       .then(setData);
   }, []);

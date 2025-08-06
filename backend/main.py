@@ -23,8 +23,6 @@ class myFastAPI():
         frontend_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "build")
         self.app.mount("/static", StaticFiles(directory=os.path.join(frontend_path, "static")), name="static")
 
-        self.app.mount("/static", StaticFiles(directory="backend/api/static"))
-
         @self.app.get("/")
         def serve_react_app():
             return FileResponse(os.path.join(frontend_path, "index.html"))
