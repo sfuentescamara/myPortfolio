@@ -163,7 +163,7 @@
             "date": "-",
             "rol": "Software developer, hardware",
             "tech": ["Raspberry", "ESP", "IoT"],
-            "desc": "Instalación de múltiples dispositivos de domótica como luces, enchufes inteligentes, cámaras de seguridad, videoporteros, controladores para puertas de garaje. Estos proyectos incluyen la implementación de sistemas de control por voz. Además de crear un pequeño asistente vinculado con Telegram, lo que permite la comunicación y el control de los dispositivos incluso cuando no estoy conectado a la red local o VPN",
+            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN.",
             "code": "",
             "demo": ""
           },
@@ -172,7 +172,7 @@
             "date": "2023",
             "rol": "Software developer, hardware",
             "tech": ["Raspberry", "mySQL"],
-            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN",
+            "desc": "Desarrollo y puesta en marcha de un sistema para monitorear la producción y consumo de energía en paneles solares en un hogar, al mismo tiempo que se controlaba el excedente de energía para su uso en la climatización de la vivienda",
             "code": "",
             "demo": ""
           },
@@ -292,7 +292,7 @@
             "date": "July-August 2025",
             "rol": "AI Developer",
             "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-            "desc": "Development of a module for people counting using AI models on NPUs of edge systems in real time, supporting different vídeo sources thanks to ffmpeg and shared memory",
+            "desc": "Development of a module for people counting using AI models on NPUs of edge systems in real time, supporting different video sources thanks to ffmpeg and shared memory",
             "code": "",
             "demo": ""
           },
@@ -373,7 +373,7 @@
             "date": "-",
             "rol": "Software Developer, Hardware",
             "tech": ["Raspberry", "ESP", "IoT"],
-            "desc": "Installation of multiple home automation devices such as lights, smart plugs, security cameras, vídeo intercoms, and garage door controllers. These projects include the implementation of voice control systems, as well as a small assistant linked to Telegram, allowing communication and device control even when not connected to the local network or VPN",
+            "desc": "Installation of multiple home automation devices such as lights, smart plugs, security cameras, video intercoms, and garage door controllers. These projects include the implementation of voice control systems, as well as a small assistant linked to Telegram, allowing communication and device control even when not connected to the local network or VPN",
             "code": "",
             "demo": ""
           },
@@ -406,7 +406,7 @@
             "company": "Grupo Etra",
             "period": "2023 - Present",
             "desc": [
-              "Development of software for real-time vídeo capture and processing. Optimized and implemented on edge devices with low latency",
+              "Development of software for real-time video capture and processing. Optimized and implemented on edge devices with low latency",
               "Development and fine-tuning of AI models (detection and OCR) on AI accelerators and NPUs",
               "Management and monitoring of edge devices. CI/CD with Docker and Ansible",
               "Full-stack development of a web server using FastAPI"
