@@ -163,7 +163,7 @@
             "date": "-",
             "rol": "Software developer, hardware",
             "tech": ["Raspberry", "ESP", "IoT"],
-            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN.",
+            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN",
             "code": "",
             "demo": ""
           },
