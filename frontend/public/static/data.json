@@ -20,7 +20,7 @@
       { "name": "Ansible", "level": 75, "icon": "🅰️"  },
       { "name": "MongoDB/SLQ", "level": 83, "icon": "📊" },
       { "name": "SolidWorks", "level": 70, "icon": "🔩" },
-      { "name": "Hardware", "level": 80, "icon": "📈" }
+      { "name": "Flutter", "level": 78, "icon": "📱" }
     ],
     "es": {
       "nav": {
@@ -91,7 +91,7 @@
               "date": "Marzo-Julio del 2025",
               "rol": "Software developer",
               "tech": ["C++", "MongoDB", "Filtro Kalman"],
-              "desc": "Desarrollo de un módulo para realizar el traking de diferentes objetos simultaneamente en la imagen a tiempo real",
+              "desc": "Desarrollo de un módulo para realizar el traking de diferentes objetos simultáneamente en la imagen a tiempo real",
               "code": "",
               "demo": ""
           },
@@ -163,7 +163,7 @@
             "date": "-",
             "rol": "Software developer, hardware",
             "tech": ["Raspberry", "ESP", "IoT"],
-            "desc": "Instalación de múltiples dispositivos de domótica como luces, enchufes inteligentes, cámaras de seguridad, vídeoporteros, controladores para puertas de garaje. Estos proyectos incluyen la implementación de sistemas de control por voz. Además de crear un pequeño asistente vinculado con Telegram, lo que permite la comunicación y el control de los dispositivos incluso cuando no estoy conectado a la red local o VPN",
+            "desc": "Instalación de múltiples dispositivos de domótica como luces, enchufes inteligentes, cámaras de seguridad, videoporteros, controladores para puertas de garaje. Estos proyectos incluyen la implementación de sistemas de control por voz. Además de crear un pequeño asistente vinculado con Telegram, lo que permite la comunicación y el control de los dispositivos incluso cuando no estoy conectado a la red local o VPN",
             "code": "",
             "demo": ""
           },
@@ -172,7 +172,7 @@
             "date": "2023",
             "rol": "Software developer, hardware",
             "tech": ["Raspberry", "mySQL"],
-            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN.",
+            "desc": "Configuración e instalación de diversos dispositivos domóticos, incluyendo luces, enchufes inteligentes, cámaras de seguridad, videoporteros y controladores de puertas de garaje. Estos proyectos incorporan sistemas de control por voz. Además, desarrollé un asistente personalizado conectado a Telegram, lo que permite gestionar y monitorear los dispositivos de forma remota, incluso sin acceso a la red local o mediante VPN",
             "code": "",
             "demo": ""
           },
