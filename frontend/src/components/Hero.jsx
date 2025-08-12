@@ -52,6 +52,28 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
           >
             {hero.cta2}
           </button>
+          <button
+            onClick={() => {
+              const url = language === 'es' ? '/cv/es' : '/cv/en';
+              fetch(url)
+                .then((res) => {
+                  if (!res.ok) throw new Error('Error descargando CV');
+                  return res.blob();
+                })
+                .then((blob) => {
+                  const link = document.createElement('a');
+                  link.href = window.URL.createObjectURL(blob);
+                  link.download = language === 'es' ? 'CV_Español.pdf' : 'CV_English.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  link.remove();
+                })
+                .catch((err) => console.error(err));
+            }}
+            className="px-8 py-4 border-2 border-white/30 rounded-full font-semibold hover:bg-white/10 transition-colors"
+          >
+            CV
+          </button>
         </div>
 
         {/* social links */}

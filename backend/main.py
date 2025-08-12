@@ -1,8 +1,9 @@
 import os
 
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 
+from .api.routes import routers
 from .core.dependencies import *
 from .core.config import configs
 
@@ -18,10 +19,15 @@ class myFastAPI():
         @self.app.get("/hello")
         def root():
             return "service is working"
+        
+        @self.app.head("/")
+        async def head_root():
+            return JSONResponse(content=None, status_code=200)
 
         # Ruta al frontend compilado
         frontend_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "build")
         self.app.mount("/static", StaticFiles(directory=os.path.join(frontend_path, "static")), name="static")
+        self.app.include_router(routers)
 
         @self.app.get("/")
         def serve_react_app():
