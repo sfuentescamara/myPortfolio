@@ -3,6 +3,7 @@ import os
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
+from .api.routes import routers
 from .core.dependencies import *
 from .core.config import configs
 
@@ -22,6 +23,7 @@ class myFastAPI():
         # Ruta al frontend compilado
         frontend_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "build")
         self.app.mount("/static", StaticFiles(directory=os.path.join(frontend_path, "static")), name="static")
+        self.app.include_router(routers)
 
         @self.app.get("/")
         def serve_react_app():

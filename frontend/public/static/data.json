@@ -6,6 +6,7 @@
     "email": "s.fuentescamara@gmail.com",
     "phone": "+34 666 113 180",
     "location": "Madrid, España",
+    "website": "https://myprofolio-mwfs.onrender.com",
     "skills_data": [
       { "name": "Python", "level": 95, "icon": "🐍" },
       { "name": "C/C++", "level": 85, "icon": "💻" },
@@ -69,6 +70,43 @@
         "card4": {
           "title": "Hardware & IoT",
           "desc": "Integración de hardware y dispositivos IoT para soluciones inteligentes"
+        }
+      },
+      "objective": {
+        "title": "Objetivo",
+        "desc": "Investigación y desarrollo de productos innovadores impulsados por inteligencia artificial para optimizar procesos, mejorar la experiencia de usuario y generar impacto positivo en la sociedad"
+      },
+      "education": {
+        "title": "Formación",
+        "university": "UCLM Toledo", 
+        "degree": "GRADO EN INGENIERÍA ELECTRÓNICA INDUSTRIAL Y AUTOMÁTICA",
+        "specialization": "Mención en tecnologías electrónicas avanzadas"
+      },
+      "research_experience": {
+        "title": "Experiencia en Investigación y Desarrollo",
+        "list": {
+          "exp1": {
+            "title": "Investigador y desarrollador",
+            "subtitle": "Formula Student",
+            "company": "UCLM Toledo",
+            "date": "2018 - 2020",
+            "desc": [
+              "Participación en una competición internacional centrada en el diseño y fabricación de un coche eléctrico",
+              "Investigación y análisis del sistema de suspensión del vehículo",
+              "Diseño 3D del sistema de suspensión con CATIA y SolidWorks",
+              "Simulación y validación del sistema de suspensión en MATLAB"
+            ]
+          },
+          "exp2": {
+            "title": "Diseñador y programador",
+            "subtitle": "Prácticas de Robótica industrial",
+            "company": "UCLM Toledo",
+            "date": "Otoño 2019",
+            "desc": [
+              "Diseño de piezas y elementos para la automatización de procesos industriales",
+              "Programación y simulación de robots industriales para optimizar procesos de producción"
+            ]
+          }
         }
       },
       "skills": {
@@ -198,7 +236,7 @@
               "Desarrollo de un software para captura y procesado de vídeo a tiempo real. Optimizado e implementado en dispositivos edge con poca latencia",
               "Desarrollo y ajuste de modelos de IA (detección y OCR) en aceleradores de IA y NPU",
               "Gestión y monitorización de dispositivos edge. CI/CD con Docker y Ansible",
-              "Desarrollo full-stack de servidor web con FastAPI"
+              "Desarrollo full-stack de servidor web con FastAPI, JavaScript and HTML"
             ]
           },
           "exp2": {
@@ -213,7 +251,7 @@
             ]
           },
           "exp3": {
-            "position": "Ingeniero Electrónico y Desarrollador Firmware",
+            "position": "Electronics Engineer and Firmware Developer",
             "company": "Digitanimal",
             "period": "2020 - 2022",
             "desc": [
@@ -279,6 +317,43 @@
         "card4": {
           "title": "Hardware & IoT",
           "desc": "Integration of hardware and IoT devices for smart solutions"
+        }
+      },
+      "objective": {
+        "title": "Objective",
+        "desc": "Research and development of innovative AI-powered products to optimize processes, enhance user experience, and create a positive impact on society"
+      },
+      "education": {
+        "title": "Education",
+        "university": "University of Castilla-La Mancha (UCLM), Toledo",
+        "degree": "Bachelor’s Degree in Industrial Electronics and Automation Engineering",
+        "specialization": "Specialization in Advanced Electronic Technologies"
+      },
+      "research_experience": {
+        "title": "Engineering, Research, and Development Experience",
+        "list": {
+          "exp1": {
+            "title": "Researcher and Developer",
+            "subtitle": "Formula Student Research and Development Team",
+            "company": "UCLM Toledo",
+            "date": "2018 - 2020",
+            "desc": [
+              "Participated in an international competition focused on the design and manufacturing of an electric vehicle",
+              "Conducted research and analysis on the vehicle’s suspension system",
+              "Designed the suspension system in 3D using CATIA and SolidWorks",
+              "Performed simulation and validation of the suspension system in MATLAB"
+            ]
+          },
+          "exp2": {
+            "title": "Designer and programmer",
+            "subtitle": "Industrial Robotics Internship",
+            "company": "UCLM Toledo",
+            "date": "Fall 2019",
+            "desc": [
+              "Designed parts and components for industrial process automation",
+              "Programmed and simulated industrial robots to optimize production processes"
+            ]
+          }
         }
       },
       "skills": {
@@ -409,7 +484,7 @@
               "Development of software for real-time video capture and processing. Optimized and implemented on edge devices with low latency",
               "Development and fine-tuning of AI models (detection and OCR) on AI accelerators and NPUs",
               "Management and monitoring of edge devices. CI/CD with Docker and Ansible",
-              "Full-stack development of a web server using FastAPI"
+              "Full-stack development of a web server using FastAPI, JavaScript and HTML"
             ]
           },
           "exp2": {
