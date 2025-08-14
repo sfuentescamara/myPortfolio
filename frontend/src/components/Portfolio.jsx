@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
+import Certificates from './Certificates';
 import Contact from './Contact';
 
 const Portfolio = ( {data} ) => {
@@ -34,7 +35,6 @@ const Portfolio = ( {data} ) => {
   }, []);
 
   const t = data[language];
-
 
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
@@ -114,6 +114,7 @@ const Portfolio = ( {data} ) => {
      <Skills language={language} title={t.skills.title} skills={data.skills_data} isVisible={isVisible} />
      <Projects language={language} projects={t.projects} />
      <Experience language={language} experience={t.experience} />
+     <Certificates language={language} certificates={t.certificates} />
      <Contact data={data} language={language} contact={t.contact} />
 
 

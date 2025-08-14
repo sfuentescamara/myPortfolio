@@ -6,7 +6,7 @@
     "email": "s.fuentescamara@gmail.com",
     "phone": "+34 666 113 180",
     "location": "Madrid, España",
-    "website": "https://myprofolio-mwfs.onrender.com",
+    "website": "myprofolio-mwfs.onrender.com",
     "skills_data": [
       { "name": "Python", "level": 95, "icon": "🐍" },
       { "name": "C/C++", "level": 85, "icon": "💻" },
@@ -30,6 +30,7 @@
         "skills": "habilidades",
         "projects": "proyectos",
         "experience": "experiencia",
+        "certificates": "certificados",
         "contact": "contacto"
       },
       "navLabels": {
@@ -38,6 +39,7 @@
         "habilidades": "Habilidades",
         "proyectos": "Proyectos",
         "experiencia": "Experiencia",
+        "certificados": "Certificados",
         "contacto": "Contacto"
       },
       "hero": {
@@ -264,6 +266,46 @@
           }
         }
       },
+      "certificates": {
+        "title": "Certificados y cursos",
+        "list": {
+          "cert1": {
+            "title": "Desarrollador de TensorFlow",
+            "company": "DeepLearning.AI",
+            "date": "Agosto 2023",
+            "url": "https://coursera.org/share/91c8ac7e282d5da95e8e7dec5380e729",
+            "desc": "Uso del framework TensorFlow para la construcción de modelos de deep learning para entrenar redes neuronales en aplicaciones de visión por computadora, sistemas de procesamiento de lenguaje natural o la implementación de RNNs, GRUs y LSTMs"
+          },
+          "cert2": {
+            "title": "Curso iniciación DevOps",
+            "company": "GitHub/90DaysOfDevOps",
+            "date": "Octubre 2022",
+            "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+            "desc": "Conocimientos, conceptos y herramientas fundamentales de DevOps, incluyendo canalizaciones CI/CD, infraestructura como código, servicios en la nube, contenedorización, supervisión y mejores prácticas de seguridad"
+          },
+          "cert3": {
+            "title": "AWS Computer Vision with GluonCV",
+            "company": "AWS Training and Certification",
+            "date": "Julio 2022",
+            "url": "https://drive.google.com/file/d/1tZ_E_sO1n-Pi9VzA1FJZbX-ktANQeggb/view?usp=sharing",
+            "desc": "Visión artificial (CV) en AWS creación y entrenamiento de modelos de CV con Apache MXNet y GluonCV"
+          },
+          "cert4": {
+            "title": "Image Segmentation with Python and Unsupervised Learning",
+            "company": "Coursera Project Network",
+            "date": "Julio 2022",
+            "url": "https://coursera.org/share/508c202fdb8d817cfeeb455026dc27e3",
+            "desc": "Uso de la técnica K-means y segmentación de imagen en Python"
+          },
+          "cert5": {
+            "title": "Curso de detección de objetos, Visión por computador",
+            "company": "Universidad Autónoma de Barcelona",
+            "date": "Enero 2020",
+            "url": "https://www.coursera.org/account/accomplishments/verify/BWNJFRKDSHQM?utm_campaign=copybutton_certificate&utm_medium=certificate&utm_source=link",
+            "desc": "Sistemas automáticos de detección y reconocimiento de objetos en imágenes"
+          }
+        }
+      },
       "contact": {
         "title": "¿Interesado en mi perfil?",
         "subtitle": "Estoy siempre abierto a nuevos proyectos y oportunidades. ¡Hablemos sobre cómo puedo ayudar a hacer realidad tu próxima idea!",
@@ -277,6 +319,7 @@
         "skills": "skills",
         "projects": "projects",
         "experience": "experience",
+        "certificates": "certificates",
         "contact": "contact"
       },
       "navLabels": {
@@ -285,6 +328,7 @@
         "skills": "Skills",
         "projects": "Projects",
         "experience": "Experience",
+        "certificates": "Certificates",
         "contact": "Contact"
       },
       "hero": {
@@ -509,6 +553,46 @@
               "Prototype design for hardware enclosures",
               "3D printing of prototypes (filament/resin)"
             ]
+          }
+        }
+      },
+      "certificates": {
+        "title": "Certificates and Courses",
+        "list": {
+          "cert1": {
+            "title": "TensorFlow Developer",
+            "company": "DeepLearning.AI",
+            "date": "August 2023",
+            "url": "https://coursera.org/share/91c8ac7e282d5da95e8e7dec5380e729",
+            "desc": "Use of the TensorFlow framework to build deep learning models for training neural networks in computer vision applications, natural language processing systems, and the implementation of RNNs, GRUs, and LSTMs"
+          },
+          "cert2": {
+            "title": "DevOps Fundamentals Course",
+            "company": "GitHub/90DaysOfDevOps",
+            "date": "October 2022",
+            "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+            "desc": "Fundamental knowledge, concepts, and tools of DevOps, including CI/CD pipelines, infrastructure as code, cloud services, containerization, monitoring, and security best practices. Based on the 90DaysOfDevOps program, which provides a structured roadmap to acquire practical DevOps skills"
+          },
+          "cert3": {
+            "title": "AWS Computer Vision with GluonCV",
+            "company": "AWS Training and Certification",
+            "date": "July 2022",
+            "url": "https://drive.google.com/file/d/1tZ_E_sO1n-Pi9VzA1FJZbX-ktANQeggb/view?usp=sharing",
+            "desc": "Computer Vision (CV) in AWS: creation and training of CV models using Apache MXNet and GluonCV"
+          },
+          "cert4": {
+            "title": "Image Segmentation with Python and Unsupervised Learning",
+            "company": "Coursera Project Network",
+            "date": "July 2022",
+            "url": "https://coursera.org/share/508c202fdb8d817cfeeb455026dc27e3",
+            "desc": "Use of the K-means technique for image segmentation in Python"
+          },
+          "cert5": {
+            "title": "Object Detection in Computer Vision",
+            "company": "Autonomous University of Barcelona",
+            "date": "January 2020",
+            "url": "https://www.coursera.org/account/accomplishments/verify/BWNJFRKDSHQM?utm_campaign=copybutton_certificate&utm_medium=certificate&utm_source=link",
+            "desc": "Automated systems for object detection and recognition in images"
           }
         }
       },

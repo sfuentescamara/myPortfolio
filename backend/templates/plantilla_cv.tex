@@ -1,5 +1,5 @@
 \documentclass[11pt]{article}
-\usepackage[a4paper, margin=1.5cm]{geometry}
+\usepackage[a4paper, margin=1.3cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -22,7 +22,7 @@
     {% raw %}{\LARGE \textbf{ {% endraw %}{{ name }}{% raw %} }}\\{% endraw %}
     \vspace{0.2cm}
     {{ location }} \hfill {{ phone }} \\
-    {% raw %}\href{mailto:{% endraw %}{{ email }}{% raw %}}{{% endraw %}{{email}}{% raw %}} \hfill \href{{% endraw %}{{ website }}{% raw %}}{{% endraw %}{{ website }}{% raw %}}\\{% endraw %}
+    {% raw %}\href{mailto:{% endraw %}{{ email }}{% raw %}}{{% endraw %}{{email}}{% raw %}} \hfill \href{https://{% endraw %}{{ website }}{% raw %}}{{% endraw %}{{ website }}{% raw %}}\\{% endraw %}
 \end{center}
 
 
@@ -60,7 +60,7 @@
 % =========================
 % experience
 % =========================
-{% raw %}\section*{ {% endraw %}{{ lang.experience.title }} {% raw %}}{% endraw %}
+{% raw %}\section*{{% endraw %}{{ lang.experience.title }}{% raw %}}{% endraw %}
 \begin{itemize}[leftmargin=0em, itemsep=0.01em, parsep=0em]
   {% for exp in lang.experience.list.values() %}
   \item[] {% raw %}\textbf{{% endraw %}{{ exp.position }}{% raw %}}{% endraw %}{% raw %}\textit{, {% endraw %}{{ exp.company }}{% raw %}}{% endraw %}{% raw %}\hfill\textit{{% endraw %}{{ exp.period }}{% raw %}}{% endraw %}
@@ -69,6 +69,17 @@
       \item {{ desc }}
     {% endfor %}
   \end{itemize}
+  {% endfor %}
+\end{itemize}
+
+% =========================
+% certificates
+% =========================
+{% raw %}\section*{{% endraw %}{{ lang.certificates.title }}{% raw %}}{% endraw %}
+\begin{itemize}[leftmargin=0em, itemsep=0.01em, parsep=0em]
+  {% for cert in lang.certificates.list.values() %}
+  \item[] 
+    {% raw %}\footnotesize{\textbf{{% endraw %}{{ cert.title }}{% raw %}}\textit{, {% endraw %}{{ cert.company }}{% raw %}} \href{{% endraw %}{{ cert.url }}{% raw %}}{(link)} \hfill \textit{{% endraw %}{{ cert.date }}{% raw %}}}{% endraw %}
   {% endfor %}
 \end{itemize}
 
