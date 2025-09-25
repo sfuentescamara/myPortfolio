@@ -231,8 +231,8 @@
             "rol": "Software developer, IA developer",
             "tech": ["Python", "pytorch", "tensorflow"],
             "desc": "Sistema de visión por computador capaz de reconocer gestos mediante técnicas de reconocimiento visual y aprendizaje automático. Proyecto final de grado calificado con matrícula de honor",
-            "code": "",
-            "demo": ""
+            "code": "https://github.com/sfuentescamara/TFG",
+            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU"
           }
         }
       },
@@ -529,8 +529,8 @@
             "rol": "Software Developer, AI Developer",
             "tech": ["Python", "pytorch", "tensorflow"],
             "desc": "Computer vision system capable of gesture recognition using visual recognition and machine learning techniques. Final degree project graded with honors",
-            "code": "",
-            "demo": ""
+            "code": "https://github.com/sfuentescamara/TFG",
+            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU"
           }
         }
 
