@@ -117,7 +117,16 @@
       "projects": {
         "title": "Proyectos Destacados",
         "list": {
-          "project1": {
+          "project13": {
+              "title": "Clasificación del estado del semáforos",
+              "date": "Agosto-Septiembre del 2025",
+              "rol": "IA Developer",
+              "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
+              "desc": "Desarrollo de un módulo para la detección del estado de los semáforos utilizando modelos de IA en NPU de sistemas edge a tiempo real. Reentrenamiento de modelos y fine-tunning para optimizar su rendimiento",
+              "code": "https://github.com/sfuentescamara/traffic_light",
+              "demo": ""
+          },
+          "project12": {
               "title": "Módulo para el conteo de personas",
               "date": "Julio-Agosto del 2025",
               "rol": "IA Developer",
@@ -126,7 +135,7 @@
               "code": "",
               "demo": ""
           },
-          "project2": {
+          "project11": {
               "title": "Módulo de seguimiento de objetos",
               "date": "Marzo-Julio del 2025",
               "rol": "Software developer",
@@ -135,7 +144,7 @@
               "code": "",
               "demo": ""
           },
-          "project3": {
+          "project10": {
               "title": "Lector de matrículas",
               "date": "2024-2025",
               "rol": "Software developer, IA developer",
@@ -144,7 +153,7 @@
               "code": "",
               "demo": ""
           },
-          "project4": {
+          "project9": {
             "title": "Fine-Tunning de modelos",
             "date": "Febrero-Marzo de 2025",
             "rol": "IA Developer",
@@ -153,7 +162,7 @@
             "code": "",
             "demo": ""
           },
-          "project5": {
+          "project8": {
             "title": "Servicio web",
             "date": "2024-2025",
             "rol": "Software developer",
@@ -162,7 +171,7 @@
             "code": "",
             "demo": ""
           },
-          "project6": {
+          "project7": {
             "title": "Medición con visión por ordenador",
             "date": "2022-2023",
             "rol": "Software developer",
@@ -171,7 +180,7 @@
             "code": "",
             "demo": ""
           },
-          "project7": {
+          "project6": {
             "title": "Collar GPS",
             "date": "2021",
             "rol": "Software developer, firmware developer, hardware",
@@ -180,7 +189,7 @@
             "code": "",
             "demo": ""
           },
-          "project8": {
+          "project5": {
             "title": "Básculas autopesaje",
             "date": "2021",
             "rol": "Software developer, hardware, mySQL",
@@ -189,7 +198,7 @@
             "code": "",
             "demo": ""
           },
-          "project9": {
+          "project4": {
             "title" : "I+D en proyectos IoT",
             "date": "2021",
             "rol": "Software developer, hardware",
@@ -198,7 +207,7 @@
             "code": "",
             "demo": ""
           },
-          "project10": {
+          "project3": {
             "title": "Proyectos de Dómotica",
             "date": "-",
             "rol": "Software developer, hardware",
@@ -207,7 +216,7 @@
             "code": "",
             "demo": ""
           },
-          "project11": {
+          "project2": {
             "title": "Control de excedentes de energía solar",
             "date": "2023",
             "rol": "Software developer, hardware",
@@ -216,7 +225,7 @@
             "code": "",
             "demo": ""
           },
-          "project12": {
+          "project1": {
             "title": "Control plataforma Raspberry Pi mediante reconocimiento visual",
             "date": "2020",
             "rol": "Software developer, IA developer",
@@ -406,7 +415,16 @@
       "projects": {
         "title": "Featured Projects",
         "list": {
-          "project1": {
+          "project13": {
+              "title": "Traffic light status classification",
+              "date": "August–September 2025",
+              "rol": "IA Developer",
+              "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
+              "desc": "Development of a module for detecting traffic light status using AI models in real-time edge system NPUs. Model retraining and fine-tuning to optimize performance",
+              "code": "https://github.com/sfuentescamara/traffic_light",
+              "demo": ""
+          },
+          "project12": {
             "title": "People Counting Module",
             "date": "July-August 2025",
             "rol": "AI Developer",
@@ -415,7 +433,7 @@
             "code": "",
             "demo": ""
           },
-          "project2": {
+          "project11": {
             "title": "Object Tracking Module",
             "date": "March-July 2025",
             "rol": "Software Developer",
@@ -424,7 +442,7 @@
             "code": "",
             "demo": ""
           },
-          "project3": {
+          "project10": {
             "title": "License Plate Reader",
             "date": "2024-2025",
             "rol": "Software Developer, AI Developer",
@@ -433,7 +451,7 @@
             "code": "",
             "demo": ""
           },
-          "project4": {
+          "project9": {
             "title": "Model Fine-Tuning",
             "date": "February-March 2025",
             "rol": "AI Developer",
@@ -442,7 +460,7 @@
             "code": "",
             "demo": ""
           },
-          "project5": {
+          "project8": {
             "title": "Web Service",
             "date": "2024-2025",
             "rol": "Software Developer",
@@ -451,7 +469,7 @@
             "code": "",
             "demo": ""
           },
-          "project6": {
+          "project7": {
             "title": "Computer Vision-Based Measurement",
             "date": "2022-2023",
             "rol": "Software Developer",
@@ -460,7 +478,7 @@
             "code": "",
             "demo": ""
           },
-          "project7": {
+          "project6": {
             "title": "GPS Collar",
             "date": "2021",
             "rol": "Software Developer, Firmware Developer, Hardware",
@@ -469,7 +487,7 @@
             "code": "",
             "demo": ""
           },
-          "project8": {
+          "project5": {
             "title": "Self-Weighing Scales",
             "date": "2021",
             "rol": "Software Developer, Hardware, mySQL",
@@ -478,7 +496,7 @@
             "code": "",
             "demo": ""
           },
-          "project9": {
+          "project4": {
             "title": "R&D in IoT Projects",
             "date": "2021",
             "rol": "Software Developer, Hardware",
@@ -487,7 +505,7 @@
             "code": "",
             "demo": ""
           },
-          "project10": {
+          "project3": {
             "title": "Home Automation Projects",
             "date": "-",
             "rol": "Software Developer, Hardware",
@@ -496,7 +514,7 @@
             "code": "",
             "demo": ""
           },
-          "project11": {
+          "project2": {
             "title": "Solar Energy Surplus Control",
             "date": "2023",
             "rol": "Software Developer, Hardware",
@@ -505,7 +523,7 @@
             "code": "",
             "demo": ""
           },
-          "project12": {
+          "project1": {
             "title": "Raspberry Pi Platform Control via Visual Recognition",
             "date": "2020",
             "rol": "Software Developer, AI Developer",
