@@ -37,6 +37,23 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
         <p className="text-xl md:text-2xl text-white/70 mb-8 leading-relaxed">
           {hero.subtitle}
         </p>
+        
+        {/* metrics section */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-8">
+          {data.hero_metrics[language].map((metric, index) => (
+            <div
+              key={index}
+              className="text-center p-4 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all hover:scale-105 duration-300"
+            >
+              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-gray-400 bg-clip-text text-transparent">
+                {metric.value}
+              </div>
+              <div className="text-sm md:text-base text-white/60 mt-2">
+                {metric.label}
+              </div>
+            </div>
+          ))}
+        </div>
 
         {/* buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -72,12 +89,12 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
             }}
             className="px-8 py-4 border-2 border-white/30 rounded-full font-semibold hover:bg-white/10 transition-colors"
           >
-            CV
+            {language === 'es' ? 'Descargar CV' : 'Download CV'}
           </button>
         </div>
 
         {/* social links */}
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center space-x-6 mb-16">
           <a href={data.github} className="text-white/60 hover:text-white transition-colors">
             <Github size={24} />
           </a>

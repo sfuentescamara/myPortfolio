@@ -1,6 +1,11 @@
 import { Github, ExternalLink } from 'lucide-react';
 
-const Projects = ({ language, projects }) => {
+const Projects = ({ language, projects, featuredProjects }) => {
+  // Filtrar solo los proyectos destacados si se proporciona la lista
+  const projectsToShow = featuredProjects
+    ? featuredProjects.map(key => [key, projects.list[key]]).filter(([, project]) => project)
+    : Object.entries(projects.list);
+
   return (
     <section id={language === 'es' ? 'proyectos' : 'projects'} className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
@@ -9,7 +14,7 @@ const Projects = ({ language, projects }) => {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.entries(projects.list).map(([key, project]) => (
+          {projectsToShow.map(([key, project]) => (
             <div key={key} className="bg-white/5 rounded-lg overflow-hidden backdrop-blur-sm hover:scale-105 transition-transform duration-300">
               <div className="h-48 bg-gradient-to-br from-blue-500/20 to-gray-500/20 flex items-center justify-center">
                 {/* <div className="text-6xl"> Snapshot here </div> */}
@@ -18,6 +23,18 @@ const Projects = ({ language, projects }) => {
               <div className="p-6 space-y-4">
                 <h3 className="text-xl font-semibold">{project.title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">{project.desc}</p>
+
+                {/* Metrics section */}
+                {project.metrics && Object.keys(project.metrics).length > 0 && (
+                  <div className="grid grid-cols-2 gap-2 py-3 border-y border-white/10">
+                    {Object.entries(project.metrics).map(([key, value]) => (
+                      <div key={key} className="text-center">
+                        <div className="text-lg font-bold text-blue-400">{value}</div>
+                        <div className="text-xs text-white/50 capitalize">{key.replace(/_/g, ' ')}</div>
+                      </div>
+                    ))}
+                  </div>
+                )}
 
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech) => (

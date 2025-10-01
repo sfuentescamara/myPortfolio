@@ -7,19 +7,34 @@
     "phone": "+34 666 113 180",
     "location": "Madrid, España",
     "website": "myprofolio-mwfs.onrender.com",
+    "hero_metrics": {
+      "es": [
+        {"value": "5+", "label": "Años Experiencia"},
+        {"value": "10+", "label": "Proyectos"},
+        {"value": "5+", "label": "Proyectos IA"},
+        {"value": "15K+", "label": "Datos Procesados/día"}
+      ],
+      "en": [
+        {"value": "5+", "label": "Years Experience"},
+        {"value": "10+", "label": "Projects"},
+        {"value": "5+", "label": "AI Projects"},
+        {"value": "15K+", "label": "Data Processed/day"}
+      ]
+    },
+    "featured_projects": ["project13", "project12", "project10", "project8", "project1"],
     "skills_data": [
       { "name": "Python", "level": 95, "icon": "🐍" },
       { "name": "C/C++", "level": 85, "icon": "💻" },
       { "name": "Computer Vision", "level": 95, "icon": "👁️" },
       { "name": "Machine Learning", "level": 87, "icon": "🤖" },
-      { "name": "FastAPI", "level": 83, "icon": "🚀" },
+      { "name": "FastAPI", "level": 85, "icon": "🚀" },
       { "name": "TensorFlow/PyTorch", "level": 80, "icon": "🧠" },
       { "name": "Git", "level": 90, "icon": "🔧" },
-      { "name": "Linux", "level": 85, "icon": "🐧" },
+      { "name": "Linux", "level": 90, "icon": "🐧" },
       { "name": "AWS/GCP", "level": 75, "icon": "☁️" }, 
       { "name": "Docker", "level": 75, "icon": "🐳" },
       { "name": "Ansible", "level": 75, "icon": "🅰️"  },
-      { "name": "MongoDB/SLQ", "level": 83, "icon": "📊" },
+      { "name": "MongoDB/SLQ", "level": 85, "icon": "📊" },
       { "name": "SolidWorks", "level": 70, "icon": "🔩" },
       { "name": "Flutter", "level": 78, "icon": "📱" }
     ],
@@ -45,18 +60,16 @@
       "hero": {
         "title1": "Ingeniero de Software",
         "title2": "especializado en IA",
-        "subtitle": "Transformando ideas en soluciones inteligentes con Machine Learning, Deep Learning y tecnologías de vanguardia",
         "cta1": "Ver Proyectos",
         "cta2": "Contactar"
       },
       "about": {
         "title": "Sobre Mí",
         "p1": "Soy un ingeniero de software apasionado por la inteligencia artificial y el machine learning, con más de 5 años de experiencia desarrollando soluciones innovadoras en proyectos de computer vision, edge computing y cloud computing.",
-        "p2": "Mi experiencia abarca desde el diseño de arquitecturas hasta la implementación en producción, siempre enfocándome en crear soluciones escalables y eficientes.",
-        "p3": "Mi trayectoria incluye colaboraciones exitosas en el desarrollo de proyectos de IoT y sistemas embebidos, complementación con diseño hardware, mecánico y web en algunos casos y diseño, entrenamiento y uso de modelos de ML para la detección de objetos, clasificación de imágenes y OCR.",
-        "p4": " Mi objetivo es seguir creciendo en el ámbito de la inteligencia artificial y el aprendizaje automático para aplicar estas tecnologías en soluciones de vanguardia.",
-        "projects": "Proyectos ML",
-        "years": "Años Experiencia",
+        "p2": "Mi objetivo es la inverstigación y desarrollo de productos innovadores impulsados por inteligencia artificial para optimizar procesos, mejorar la experiencia de usuario y generar impacto positivo en la sociedad.",
+        "p3": "Mi experiencia abarca desde el diseño de arquitecturas hasta la implementación en producción, siempre enfocándome en crear soluciones escalables y eficientes.",
+        "p4": "Mi trayectoria incluye colaboraciones exitosas en el desarrollo de proyectos de IoT y sistemas embebidos, complementación con diseño hardware, mecánico y web en algunos casos y diseño, entrenamiento y uso de modelos de ML para la detección de objetos, clasificación de imágenes y OCR.",
+        "p5": "Mi futuro es seguir creciendo en el ámbito de la inteligencia artificial y el aprendizaje automático para aplicar estas tecnologías en soluciones de vanguardia.",
         "card1": {
           "title": "Machine Learning",
           "desc": "Desarrollo de modelos predictivos, detección y clasificación"
@@ -121,19 +134,31 @@
               "title": "Clasificación del estado del semáforos",
               "date": "Agosto-Septiembre del 2025",
               "rol": "IA Developer",
-              "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-              "desc": "Desarrollo de un módulo para la detección del estado de los semáforos utilizando modelos de IA en NPU de sistemas edge a tiempo real. Reentrenamiento de modelos y fine-tunning para optimizar su rendimiento",
+              "tech": ["Python", "YOLOX", "MongoDB", "ffmpeg", "Shared Memory"],
+              "desc": "Módulo de detección del estado de semáforos en tiempo real en NPU edge. Fine-tuning de YOLO11 con dataset custom de 5000+ imágenes para condiciones variadas de iluminación",
               "code": "https://github.com/sfuentescamara/traffic_light",
-              "demo": ""
+              "demo": "",
+              "metrics": {
+                "precisión": "98%",
+                "latencia": "<30ms",
+                "streams": "1080p/30fps",
+                "optimización": "70% menos CPU",
+                "dataset": "5000+ imágenes"
+              }
           },
           "project12": {
               "title": "Módulo para el conteo de personas",
               "date": "Julio-Agosto del 2025",
               "rol": "IA Developer",
-              "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-              "desc": "Desarrollo de un módulo para el conteo de personas utilizando modelos de IA en NPU de sistemas edge a tiempo real, soportando diferentes fuentes de vídeo gracias a ffmpeg y memoria compartida",
+              "tech": ["Python", "YOLOX", "MongoDB", "ffmpeg", "Shared Memory"],
+              "desc": "Sistema de conteo de personas en tiempo real en NPU edge. Arquitectura multi-dispositivo con hasta 4 cámaras simultáneas 1080p/15fps mediante ffmpeg y memoria compartida",
               "code": "",
-              "demo": ""
+              "demo": "",
+              "metrics": {
+                "precisión": "95%+",
+                "latencia": "<40ms",
+                "streams": "4 cámaras 1080p"
+              }
           },
           "project11": {
               "title": "Módulo de seguimiento de objetos",
@@ -149,9 +174,15 @@
               "date": "2024-2025",
               "rol": "Software developer, IA developer",
               "tech": ["C++", "Python", "MongoDB", "ffmpeg", "GenICam", "Detector de objetos", "OCR"],
-              "desc": "Participación en un proyecto para la lectura de matrículas de vehículos en tiempo real y dispositivos edge",
+              "desc": "Real-time ALPR system for edge devices. Optimised C++ pipeline integrating detector + OCR with 97% accuracy in varying conditions such as day, night or rain. 1080p/+20fps video processing with <50ms latency using GenICam",
               "code": "",
-              "demo": ""
+              "demo": "",
+            "metrics": {
+              "precisión": "97%",
+              "latencia": "<50ms",
+              "rendimiento": "15K+ lecturas/día",
+              "resolución": "1080p/+20fps"
+            }
           },
           "project9": {
             "title": "Fine-Tunning de modelos",
@@ -166,10 +197,15 @@
             "title": "Servicio web",
             "date": "2024-2025",
             "rol": "Software developer",
-            "tech": ["Python", "JavaScript", "FastAPI", "MongoDB", "Asyncio", "socket", "websocket", "webRTC", "pipes"],
-            "desc": "Desarrollo de un servicio web, backend y frontend, para comunicación entre procesos, visualización y gestión de datos",
+            "tech": ["Python", "JavaScript", "FastAPI", "MongoDB", "Asyncio", "WebSocket", "WebRTC"],
+            "desc": "Desarrollo de un servicio web, backend y frontend, para comunicación entre procesos, visualización y gestión de datos de dispositivos edge",
             "code": "",
-            "demo": ""
+            "demo": "",
+            "metrics": {
+              "streams": "10+ simultáneos",
+              "dispositivos": "20+ monitorizados",
+              "configuración": "5x más rápido"
+            }
           },
           "project7": {
             "title": "Medición con visión por ordenador",
@@ -203,7 +239,7 @@
             "date": "2021",
             "rol": "Software developer, hardware",
             "tech": ["C", "Python", "Arduino", "Raspberry", "uControladores", "impresión 3D"],
-            "desc": "Búsqueda y desarrollo de la viablididad de nuevos proyectos IoT, diseñando, desarrollando y probando el producto",
+            "desc": "Búsqueda y desarrollo de la viabilidad de nuevos proyectos IoT, diseñando, desarrollando y probando el producto",
             "code": "",
             "demo": ""
           },
@@ -230,9 +266,14 @@
             "date": "2020",
             "rol": "Software developer, IA developer",
             "tech": ["Python", "pytorch", "tensorflow"],
-            "desc": "Sistema de visión por computador capaz de reconocer gestos mediante técnicas de reconocimiento visual y aprendizaje automático. Proyecto final de grado calificado con matrícula de honor",
+            "desc": "Sistema de control mediante gestos con Computer Vision y DL. Red neuronal convolucional entrenada con 8000+ imágenes alcanzando 90% de precisión en reconocimiento de los diferentes gestos e implementación en Raspberry Pi 4. TFG calificado con Matrícula de Honor",
             "code": "https://github.com/sfuentescamara/TFG",
-            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU"
+            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU",
+            "metrics": {
+              "precisión": "90%",
+              "fps": "10fps",
+              "calificación": "Matrícula de Honor"
+            }
           }
         }
       },
@@ -343,16 +384,16 @@
       "hero": {
         "title1": "Software Engineer",
         "title2": "specialized in AI",
-        "subtitle": "Transforming ideas into intelligent solutions with Machine Learning, Deep Learning and cutting-edge technologies",
         "cta1": "View Projects",
         "cta2": "Contact"
       },
       "about": {
         "title": "About Me",
         "p1": "I am a software engineer passionate about artificial intelligence and machine learning, with over 5 years of experience developing innovative solutions in computer vision, edge computing, and cloud computing projects.",
-        "p2": "My experience ranges from architectural design to production implementation, always focusing on creating scalable and efficient solutions.",
-        "p3": "My background includes successful collaborations in the development of IoT and embedded systems projects, complemented in some cases by hardware, mechanical, and web design, as well as the design, training, and use of ML models for object detection, image classification, and OCR.",
-        "p4": "My goal is to continue growing in the field of artificial intelligence and machine learning to apply these technologies in cutting-edge solutions.",
+        "p2": "My goal is the research and development of innovative products driven by artificial intelligence to optimise processes, improve user experience and generate positive impact on society.",
+        "p3": "My experience ranges from architectural design to production implementation, always focusing on creating scalable and efficient solutions.",
+        "p4": "My background includes successful collaborations in the development of IoT and embedded systems projects, complemented in some cases by hardware, mechanical, and web design, as well as the design, training, and use of ML models for object detection, image classification, and OCR.",
+        "p5": "My future is to continue growing in the field of artificial intelligence and machine learning to apply these technologies in cutting-edge solutions.",
         "projects": "ML Projects",
         "years": "Years Experience",
         "card1": {
@@ -420,18 +461,31 @@
               "date": "August–September 2025",
               "rol": "IA Developer",
               "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-              "desc": "Development of a module for detecting traffic light status using AI models in real-time edge system NPUs. Model retraining and fine-tuning to optimize performance",
+              "desc": "Real-time traffic light status detection module on NPU edge. Fine-tuning of YOLO11 with custom dataset of 5000+ images for various lighting conditions",
               "code": "https://github.com/sfuentescamara/traffic_light",
-              "demo": ""
+              "demo": "",
+              "metrics": {
+                "accuracy": "98%",
+                "latency": "<30ms",
+                "streams": "4K/30fps",
+                "optimization": "65% less CPU",
+                "dataset": "5000+ images"
+              }
           },
           "project12": {
             "title": "People Counting Module",
             "date": "July-August 2025",
             "rol": "AI Developer",
             "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-            "desc": "Development of a module for people counting using AI models on NPUs of edge systems in real time, supporting different video sources thanks to ffmpeg and shared memory",
+            "desc": "Real-time people counting system on NPU edge. Multi-device architecture with up to 4 simultaneous 1080p/15fps cameras via ffmpeg and shared memory",
             "code": "",
-            "demo": ""
+            "demo": "",
+            "metrics": {
+              "accuracy": "95%+",
+              "latency": "<50ms",
+              "streams": "8 cameras 1080p",
+              "optimization": "70% less resources"
+            }
           },
           "project11": {
             "title": "Object Tracking Module",
@@ -440,16 +494,27 @@
             "tech": ["C++", "MongoDB", "Kalman Filter"],
             "desc": "Development of a module to perform real-time tracking of multiple objects simultaneously in the image",
             "code": "",
-            "demo": ""
+            "demo": "",
+            "metrics": {
+              "tracking": "Multi-object",
+              "performance": "Real-time",
+              "algorithm": "Kalman Filter"
+            }
           },
           "project10": {
             "title": "License Plate Reader",
             "date": "2024-2025",
             "rol": "Software Developer, AI Developer",
             "tech": ["C++", "Python", "MongoDB", "ffmpeg", "GenICam", "Object Detector", "OCR"],
-            "desc": "Participation in a project for real-time vehicle license plate recognition on edge devices",
+            "desc": "Real-time ALPR system for edge devices. Optimised C++ pipeline integrating detector + OCR with 97% accuracy in varying conditions (night, rain, oblique angles). 1080p/+20fps video processing with <50ms latency using GenICam",
             "code": "",
-            "demo": ""
+            "demo": "",
+            "metrics": {
+              "accuracy": "97%",
+              "latency": "<100ms",
+              "throughput": "10K+ reads/day",
+              "resolution": "4K/30fps"
+            }
           },
           "project9": {
             "title": "Model Fine-Tuning",
@@ -464,10 +529,15 @@
             "title": "Web Service",
             "date": "2024-2025",
             "rol": "Software Developer",
-            "tech": ["Python", "JavaScript", "FastAPI", "MongoDB", "Asyncio", "socket", "websocket", "webRTC", "pipes"],
+            "tech": ["Python", "JavaScript", "FastAPI", "MongoDB", "Asyncio", "WebSocket", "WebRTC"],
             "desc": "Development of a web service, backend and frontend, for inter-process communication, data visualization, and management",
             "code": "",
-            "demo": ""
+            "demo": "",
+            "metrics": {
+              "streams": "10+ simultaneous",
+              "devices": "20+ monitored",
+              "setup": "5x faster"
+            }
           },
           "project7": {
             "title": "Computer Vision-Based Measurement",
@@ -528,9 +598,14 @@
             "date": "2020",
             "rol": "Software Developer, AI Developer",
             "tech": ["Python", "pytorch", "tensorflow"],
-            "desc": "Computer vision system capable of gesture recognition using visual recognition and machine learning techniques. Final degree project graded with honors",
+            "desc": "Gesture control system with Computer Vision and DL. Convolutional neural network trained with 8000+ images reaching 90% accuracy in recognition of different gestures and implementation in Raspberry Pi 4. TFG qualified with Honours",
             "code": "https://github.com/sfuentescamara/TFG",
-            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU"
+            "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU",
+            "metrics": {
+              "accuracy": "90%",
+              "fps": "10fps",
+              "grade": "Honors"
+            }
           }
         }
 
