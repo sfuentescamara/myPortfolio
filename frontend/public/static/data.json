@@ -147,12 +147,12 @@
               }
           },
           "project12": {
-              "title": "Módulo para el conteo de personas",
+              "title": "Conteo de personas",
               "date": "Julio-Agosto del 2025",
               "rol": "IA Developer",
               "tech": ["Python", "YOLOX", "MongoDB", "ffmpeg", "Shared Memory"],
               "desc": "Sistema de conteo de personas en tiempo real en NPU edge. Arquitectura multi-dispositivo con hasta 4 cámaras simultáneas 1080p/15fps mediante ffmpeg y memoria compartida",
-              "code": "",
+              "code": "https://github.com/sfuentescamara/people_counting",
               "demo": "",
               "metrics": {
                 "precisión": "95%+",
@@ -467,24 +467,23 @@
               "metrics": {
                 "accuracy": "98%",
                 "latency": "<30ms",
-                "streams": "4K/30fps",
-                "optimization": "65% less CPU",
+                "streams": "1080p/30fps",
+                "optimización": "70% menos CPU",
                 "dataset": "5000+ images"
               }
           },
           "project12": {
-            "title": "People Counting Module",
+            "title": "People Counting",
             "date": "July-August 2025",
             "rol": "AI Developer",
             "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
             "desc": "Real-time people counting system on NPU edge. Multi-device architecture with up to 4 simultaneous 1080p/15fps cameras via ffmpeg and shared memory",
-            "code": "",
+            "code": "https://github.com/sfuentescamara/people_counting",
             "demo": "",
             "metrics": {
               "accuracy": "95%+",
-              "latency": "<50ms",
-              "streams": "8 cameras 1080p",
-              "optimization": "70% less resources"
+              "latency": "<40ms",
+              "streams": "4 cameras 1080p"
             }
           },
           "project11": {
@@ -511,9 +510,9 @@
             "demo": "",
             "metrics": {
               "accuracy": "97%",
-              "latency": "<100ms",
-              "throughput": "10K+ reads/day",
-              "resolution": "4K/30fps"
+              "latency": "<50ms",
+              "throughput": "15K+ reads/day",
+              "resolution": "1080p/+20fps"
             }
           },
           "project9": {
