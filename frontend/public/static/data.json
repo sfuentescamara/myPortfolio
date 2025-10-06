@@ -286,7 +286,7 @@
             "tech": ["Python", "pytorch", "tensorflow"],
           "desc": "Sistema de control mediante gestos con Computer Vision y DL. Red neuronal convolucional entrenada con 8000+ imágenes alcanzando 90% de precisión en reconocimiento de los diferentes gestos e implementación en Raspberry Pi 4. TFG calificado con Matrícula de Honor",
           "code": "https://github.com/sfuentescamara/TFG",
-          "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU",
+          "demo": "https://www.youtube.com/watch?v=NW_RYUaRl0w",
           "metrics": {
             "precisión": "90%",
             "fps": "10fps",
@@ -630,7 +630,7 @@
             "tech": ["Python", "pytorch", "tensorflow"],
           "desc": "Gesture control system with Computer Vision and DL. Convolutional neural network trained with 8000+ images reaching 90% accuracy in recognition of different gestures and implementation in Raspberry Pi 4. TFG qualified with Honours",
           "code": "https://github.com/sfuentescamara/TFG",
-          "demo": "https://www.youtube.com/watch?v=JVefBV6TbnU",
+          "demo": "https://www.youtube.com/watch?v=NW_RYUaRl0w",
           "metrics": {
             "accuracy": "90%",
             "fps": "10fps",
