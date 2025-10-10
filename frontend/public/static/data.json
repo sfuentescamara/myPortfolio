@@ -37,7 +37,7 @@
       { "name": "TensorFlow/PyTorch", "level": 80, "icon": "🧠" },
       { "name": "Git", "level": 90, "icon": "🔧" },
       { "name": "Linux", "level": 90, "icon": "🐧" },
-      { "name": "AWS/GCP", "level": 75, "icon": "☁️" }, 
+      { "name": "AWS/GCP", "level": 75, "icon": "☁️" },
       { "name": "Docker", "level": 75, "icon": "🐳" },
       { "name": "Ansible", "level": 75, "icon": "🅰️"  },
       { "name": "MongoDB/SLQ", "level": 85, "icon": "📊" },
@@ -151,7 +151,7 @@
             "optimización": "70% menos CPU",
             "dataset": "5000+ imágenes"
           },
-          "images": []
+          "images": ["https://raw.githubusercontent.com/sfuentescamara/traffic_light/refs/heads/develop/output/test_detection.jpg"]
         },
         "project12": {
           "title": "Conteo de personas",
@@ -292,7 +292,7 @@
             "fps": "10fps",
             "calificación": "Matrícula de Honor"
           },
-          "images": []
+          "images": ["/static/projects/tfg.png"]
         }
       }
     },
@@ -490,7 +490,7 @@
             "optimización": "70% menos CPU",
             "dataset": "5000+ images"
           },
-          "images": []
+          "images": ["https://raw.githubusercontent.com/sfuentescamara/traffic_light/refs/heads/develop/output/test_detection.jpg"]
         },
         "project12": {
           "title": "People Counting",
@@ -505,7 +505,7 @@
             "latency": "<40ms",
             "streams": "4 cameras 1080p"
           },
-          "images": ["https://github.com/sfuentescamara/people_counting/blob/develop/output/single_frame_counter.png"]
+          "images": ["https://raw.githubusercontent.com/sfuentescamara/people_counting/refs/heads/develop/output/single_frame_counter.png"]
         },
         "project11": {
           "title": "Object Tracking Module",
@@ -636,7 +636,7 @@
             "fps": "10fps",
             "grade": "Honors"
           },
-          "images": []
+          "images": ["/static/projects/tfg.png"]
         }
       }
     },
