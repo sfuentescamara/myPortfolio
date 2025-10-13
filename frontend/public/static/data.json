@@ -51,6 +51,7 @@
       "skills": "habilidades",
       "projects": "proyectos",
       "experience": "experiencia",
+      "testimonials": "recomendaciones",
       "certificates": "certificados",
       "contact": "contacto"
     },
@@ -60,6 +61,7 @@
       "habilidades": "Habilidades",
       "proyectos": "Proyectos",
       "experiencia": "Experiencia",
+      "recomendaciones": "Recomendaciones",
       "certificados": "Certificados",
       "contacto": "Contacto"
     },
@@ -335,6 +337,31 @@
         }
       }
     },
+    "testimonials": {
+      "title": "Recomendaciones",
+      "subtitle": "Lo que dicen quienes han trabajado conmigo",
+      "linkedin_url": "https://linkedin.com/in/sergiofuentescamara/details/recommendations",
+      "list": [
+        {
+          "name": "Francisco Méndez",
+          "position": "IT Chapter Lead ING España & Portugal at Capgemini",
+          "text": "Desde el comienzo de Sergio en el proyecto que estabamos llevando a cabo, su integración en el equipo fue fantástica. De hecho, pronto estuvo aportando ideas y soluciones buscando la mejora continua en todos nuestros procesos. Sergio en un profesional comprometido, que cumple con los plazos de desarrollo y entrega, aportando además innovación sobre los mismos. Además es un excelente team worker, ayudando a sus compañeros en lo necesario, ayudando a mejorar la maquinaria del equipo completo. Cuenta con buenas dotes de comunicación, siendo capaz de explicar y hacerse entender perfectamente.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        },
+        {
+          "name": "Roberto Guzmán Carreras",
+          "position": "Ingeniero de Software en SensoWave",
+          "text": "Durante el tiempo que trabajé con Sergio nuestros productos crecieron enormemente. Encontrar gente como él, altamente cualificada y fantástico a nivel personal no se encuentra cada día. No dudaría volver a trabajar con Sergio, ya fuera como parte de mi equipo o como compañero de otro departamento.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        },
+        {
+          "name": "Ignacio Gómez Maqueda",
+          "position": "Cofounder - Technical Director en Digitanimal",
+          "text": "Fue un verdadero placer tener a Sergio como parte del equipo en Digitanimal, y sentimos su marcha. Sergio demostró ser un profesional excepcional, siempre buscando superarse a sí mismo y adquirir conocimientos en diversos aspectos. Destacaba por su habilidad para trabajar de manera efectiva en equipo y mantener un rendimiento óptimo incluso bajo situaciones de presión. Su contribución fue altamente valorada en nuestro entorno de trabajo.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        }
+      ]
+    },
     "certificates": {
       "title": "Certificados y cursos",
       "list": {
@@ -388,6 +415,7 @@
       "skills": "skills",
       "projects": "projects",
       "experience": "experience",
+      "testimonials": "testimonials",
       "certificates": "certificates",
       "contact": "contact"
     },
@@ -397,6 +425,7 @@
       "skills": "Skills",
       "projects": "Projects",
       "experience": "Experience",
+      "testimonials": "Testimonials",
       "certificates": "Certificates",
       "contact": "Contact"
     },
@@ -678,6 +707,31 @@
           ]
         }
       }
+    },
+    "testimonials": {
+      "title": "Recommendations",
+      "subtitle": "What people I've worked with say",
+      "linkedin_url": "https://linkedin.com/in/sergiofuentescamara/details/recommendations",
+      "list": [
+        {
+          "name": "Francisco Méndez",
+          "position": "IT Chapter Lead ING España & Portugal at Capgemini",
+          "text": "From the very beginning of Sergio's involvement in the project we were carrying out, his integration into the team was fantastic. In fact, he was soon contributing ideas and solutions looking for continuous improvement in all our processes. Sergio is a committed professional, who meets the development and delivery deadlines, also bringing innovation to them. He is also an excellent team worker, helping his colleagues where necessary, helping to improve the whole team's machinery. He has good communication skills, being able to explain and make himself perfectly understood.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        },
+        {
+          "name": "Roberto Guzmán Carreras",
+          "position": "Ingeniero de Software en SensoWave",
+          "text": "During the time I worked with Sergio our products grew enormously. You don't find people like him, highly qualified and fantastic on a personal level every day. I would not hesitate to work with Sergio again, either as part of my team or as a colleague in another department.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        },
+        {
+          "name": "Ignacio Gómez Maqueda",
+          "position": "Cofounder - Technical Director en Digitanimal",
+          "text": "It was a real pleasure to have Sergio as part of the team at Digitanimal, and we are sorry to see him go. Sergio proved to be an exceptional professional, always looking to improve himself and acquire knowledge in various aspects. He stood out for his ability to work effectively in a team and to maintain optimum performance even under pressure. His contribution was highly valued in our work environment.",
+          "linkedin": "https://linkedin.com/in/sergiofuentescamara"
+        }
+      ]
     },
     "certificates": {
       "title": "Certificates and Courses",

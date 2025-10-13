@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
+import Testimonials from './Testimonials';
 import Certificates from './Certificates';
 import Contact from './Contact';
 
@@ -114,6 +115,7 @@ const Portfolio = ( {data} ) => {
      <Skills language={language} title={t.skills.title} skills={data.skills_data} isVisible={isVisible} />
      <Projects language={language} projects={t.projects} featuredProjects={data.featured_projects} />
      <Experience language={language} experience={t.experience} />
+     <Testimonials language={language} testimonials={t.testimonials} />
      <Certificates language={language} certificates={t.certificates} />
      <Contact data={data} language={language} contact={t.contact} />
 
