@@ -112,7 +112,7 @@ const Portfolio = ( {data} ) => {
 
      <Hero data={data} language={language} hero={t.hero} scrollToSection={scrollToSection} />
      <About language={language} data={t.about} />
-     <Skills language={language} title={t.skills.title} skills={data.skills_data} isVisible={isVisible} />
+     <Skills language={language} title={t.skills.title} skills={data.skills_data[language]} isVisible={isVisible} />
      <Projects language={language} projects={t.projects} featuredProjects={data.featured_projects} />
      <Experience language={language} experience={t.experience} />
      <Testimonials language={language} testimonials={t.testimonials} />
