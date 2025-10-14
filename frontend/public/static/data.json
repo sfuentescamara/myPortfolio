@@ -1,5 +1,5 @@
 {
-   "name": "Sergio Fuentes Cámara",
+  "name": "Sergio Fuentes Cámara",
   "img": "static/foto_CV_actual.jpg",
   "github": "https://github.com/sfuentescamara",
   "linkedin": "https://linkedin.com/in/sergiofuentescamara",
@@ -9,16 +9,16 @@
   "website": "myprofolio-mwfs.onrender.com",
   "hero_metrics": {
     "es": [
-        {"value": "5+", "label": "Años Experiencia"},
-        {"value": "10+", "label": "Proyectos"},
-        {"value": "5+", "label": "Proyectos IA"},
-        {"value": "15K+", "label": "Datos Procesados/día"}
+        {"value": "+5", "label": "Años Experiencia"},
+        {"value": "+10", "label": "Proyectos"},
+        {"value": "+5", "label": "Proyectos IA"},
+        {"value": "+15K", "label": "Datos Procesados/día"}
     ],
     "en": [
-        {"value": "5+", "label": "Years Experience"},
-        {"value": "10+", "label": "Projects"},
-        {"value": "5+", "label": "AI Projects"},
-        {"value": "15K+", "label": "Data Processed/day"}
+        {"value": "+5", "label": "Years Experience"},
+        {"value": "+10", "label": "Projects"},
+        {"value": "+5", "label": "AI Projects"},
+        {"value": "+15K", "label": "Data Processed/day"}
     ]
   },
   "featured_projects": [
@@ -28,22 +28,119 @@
     "project8",
     "project1"
   ],
-  "skills_data": [
-      { "name": "Python", "level": 95, "icon": "🐍" },
-      { "name": "C/C++", "level": 85, "icon": "💻" },
-      { "name": "Computer Vision", "level": 95, "icon": "👁️" },
-      { "name": "Machine Learning", "level": 87, "icon": "🤖" },
-      { "name": "FastAPI", "level": 85, "icon": "🚀" },
-      { "name": "TensorFlow/PyTorch", "level": 80, "icon": "🧠" },
-      { "name": "Git", "level": 90, "icon": "🔧" },
-      { "name": "Linux", "level": 90, "icon": "🐧" },
-      { "name": "AWS/GCP", "level": 75, "icon": "☁️" },
-      { "name": "Docker", "level": 75, "icon": "🐳" },
-      { "name": "Ansible", "level": 75, "icon": "🅰️"  },
-      { "name": "MongoDB/SLQ", "level": 85, "icon": "📊" },
-      { "name": "SolidWorks", "level": 70, "icon": "🔩" },
-      { "name": "Flutter", "level": 78, "icon": "📱" }
-  ],
+  "skills_data": {
+    "es": [
+      {
+        "category": "Computer Vision & IA",
+        "icon": "👁️",
+        "skills": [
+          { "name": "TensorFlow & PyTorch", "level": 85 },
+          { "name": "Detección de objetos & Tracking", "level": 95 },
+          { "name": "OpenCV", "level": 90 },
+          { "name": "OCR", "level": 90 },
+          { "name": "Optimización de modelos", "level": 87 }
+        ]
+      },
+      {
+        "category": "Edge Computing & Hardware",
+        "icon": "⚡",
+        "skills": [
+          { "name": "NPU acceleration", "level": 90 },
+          { "name": "Sistemas baja latencia", "level": 95 },
+          { "name": "C/C++ embebido", "level": 85 },
+          { "name": "Microcontroladores & IoT", "level": 85 }
+        ]
+      },
+      {
+        "category": "Backend & APIs",
+        "icon": "🚀",
+        "skills": [
+          { "name": "Python", "level": 95 },
+          { "name": "FastAPI & REST APIs", "level": 90 },
+          { "name": "WebSockets & WebRTC", "level": 85 },
+          { "name": "MongoDB & SQL", "level": 85 },
+          { "name": "Asyncio & multiprocessing", "level": 90 }
+        ]
+      },
+      {
+        "category": "DevOps & Cloud",
+        "icon": "🐳",
+        "skills": [
+          { "name": "Docker", "level": 85 },
+          { "name": "Ansible", "level": 80 },
+          { "name": "CI/CD (Git, Jenkins)", "level": 85 },
+          { "name": "AWS & GCP", "level": 75 },
+          { "name": "Linux & Bash", "level": 90 }
+        ]
+      },
+      {
+        "category": "Frontend & Diseño",
+        "icon": "💻",
+        "skills": [
+          { "name": "JavaScript & HTML/CSS", "level": 80 },
+          { "name": "React", "level": 78 },
+          { "name": "Flutter", "level": 75 },
+          { "name": "SolidWorks (diseño 3D)", "level": 70 },
+          { "name": "Impresión 3D (FDM/Resina)", "level": 85 }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "category": "Computer Vision & AI",
+        "icon": "👁️",
+        "skills": [
+          { "name": "TensorFlow & PyTorch", "level": 85 },
+          { "name": "Object detection & Tracking", "level": 95 },
+          { "name": "OpenCV", "level": 90 },
+          { "name": "OCR", "level": 90 },
+          { "name": "Model Optimization", "level": 87 }
+        ]
+      },
+      {
+        "category": "Edge Computing & Hardware",
+        "icon": "⚡",
+        "skills": [
+          { "name": "NPU acceleration", "level": 90 },
+          { "name": "Low-latency systems", "level": 95 },
+          { "name": "Embedded C/C++", "level": 85 },
+          { "name": "Microcontrollers & IoT", "level": 85 }
+        ]
+      },
+      {
+        "category": "Backend & APIs",
+        "icon": "🚀",
+        "skills": [
+          { "name": "Python", "level": 95 },
+          { "name": "FastAPI & REST APIs", "level": 90 },
+          { "name": "WebSockets & WebRTC", "level": 85 },
+          { "name": "MongoDB & SQL", "level": 85 },
+          { "name": "Asyncio & multiprocessing", "level": 90 }
+        ]
+      },
+      {
+        "category": "DevOps & Cloud",
+        "icon": "🐳",
+        "skills": [
+          { "name": "Docker", "level": 85 },
+          { "name": "Ansible", "level": 80 },
+          { "name": "CI/CD (Git, Jenkins)", "level": 85 },
+          { "name": "AWS & GCP", "level": 75 },
+          { "name": "Linux & Bash", "level": 90 }
+        ]
+      },
+      {
+        "category": "Frontend & Design",
+        "icon": "💻",
+        "skills": [
+          { "name": "JavaScript & HTML/CSS", "level": 80 },
+          { "name": "React", "level": 78 },
+          { "name": "Flutter", "level": 75 },
+          { "name": "SolidWorks (3D design)", "level": 70 }
+        ]
+      }
+    ]
+  },
   "es": {
     "nav": {
       "inicio": "inicio",
@@ -66,8 +163,8 @@
       "contacto": "Contacto"
     },
     "hero": {
-      "title1": "Ingeniero de Software",
-      "title2": "especializado en IA",
+      "title1": "Computer Vision Engineer",
+      "title2": "ML & Edge Computing Specialist",
       "cta1": "Ver Proyectos",
       "cta2": "Contactar"
     },
@@ -96,14 +193,27 @@
       }
     },
     "objective": {
-      "title": "Objetivo",
-      "desc": "Investigación y desarrollo de productos innovadores impulsados por inteligencia artificial para optimizar procesos, mejorar la experiencia de usuario y generar impacto positivo en la sociedad"
+      "title": "Perfil Profesional",
+      "desc": "Computer Vision Engineer con +5 años especializándome en sistemas de IA en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI. Actualmente en Grupo Etra optimizando modelos para NPUs"
     },
     "education": {
       "title": "Formación",
       "university": "UCLM Toledo",
       "degree": "GRADO EN INGENIERÍA ELECTRÓNICA INDUSTRIAL Y AUTOMÁTICA",
       "specialization": "Mención en tecnologías electrónicas avanzadas"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "list": [
+        {
+          "name": "Español",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglés",
+          "level": "Técnico (documentación, papers, código) | Conversacional en desarrollo"
+        }
+      ]
     },
     "research_experience": {
       "title": "Experiencia en Investigación y Desarrollo",
@@ -143,7 +253,7 @@
           "date": "Agosto-Septiembre del 2025",
           "rol": "IA Developer",
               "tech": ["Python", "YOLOX", "MongoDB", "ffmpeg", "Shared Memory"],
-          "desc": "Módulo de detección del estado de semáforos en tiempo real en NPU edge. Fine-tuning de YOLO11 con dataset custom de 5000+ imágenes para condiciones variadas de iluminación",
+          "desc": "Módulo de detección del estado de semáforos en tiempo real en NPU edge. Fine-tuning de YOLO11 con dataset custom de +5000 imágenes para condiciones variadas de iluminación",
           "code": "https://github.com/sfuentescamara/traffic_light",
           "demo": "",
           "metrics": {
@@ -151,7 +261,7 @@
             "latencia": "<30ms",
             "streams": "1080p/30fps",
             "optimización": "70% menos CPU",
-            "dataset": "5000+ imágenes"
+            "dataset": "+5000 imágenes"
           },
           "images": ["https://raw.githubusercontent.com/sfuentescamara/traffic_light/refs/heads/develop/output/test_detection.jpg"]
         },
@@ -164,7 +274,7 @@
           "code": "https://github.com/sfuentescamara/people_counting",
           "demo": "https://www.youtube.com/watch?v=Lr4-H-tuMOQ",
           "metrics": {
-            "precisión": "95%+",
+            "precisión": "+95%",
             "latencia": "<40ms",
             "streams": "4 cámaras 1080p"
           },
@@ -191,7 +301,7 @@
           "metrics": {
             "precisión": "97%",
             "latencia": "<50ms",
-            "rendimiento": "15K+ lecturas/día",
+            "rendimiento": "+15K lecturas/día",
             "resolución": "1080p/+20fps"
           },
           "images": []
@@ -215,8 +325,8 @@
           "code": "",
           "demo": "",
           "metrics": {
-            "streams": "10+ simultáneos",
-            "dispositivos": "20+ monitorizados",
+            "streams": "+10 simultáneos",
+            "dispositivos": "+20 monitorizados",
             "configuración": "5x más rápido"
           },
           "images": []
@@ -286,7 +396,7 @@
           "date": "2020",
           "rol": "Software developer, IA developer",
             "tech": ["Python", "pytorch", "tensorflow"],
-          "desc": "Sistema de control mediante gestos con Computer Vision y DL. Red neuronal convolucional entrenada con 8000+ imágenes alcanzando 90% de precisión en reconocimiento de los diferentes gestos e implementación en Raspberry Pi 4. TFG calificado con Matrícula de Honor",
+          "desc": "Sistema de control mediante gestos con Computer Vision y DL. Red neuronal convolucional entrenada con +8000 imágenes alcanzando 90% de precisión en reconocimiento de los diferentes gestos e implementación en Raspberry Pi 4. TFG calificado con Matrícula de Honor",
           "code": "https://github.com/sfuentescamara/TFG",
           "demo": "https://www.youtube.com/watch?v=NW_RYUaRl0w",
           "metrics": {
@@ -306,10 +416,10 @@
           "company": "Grupo Etra",
           "period": "2023 - Presente",
           "desc": [
-            "Desarrollo de un software para captura y procesado de vídeo a tiempo real. Optimizado e implementado en dispositivos edge con poca latencia",
-            "Desarrollo y ajuste de modelos de IA (detección y OCR) en aceleradores de IA y NPU",
-            "Gestión y monitorización de dispositivos edge. CI/CD con Docker y Ansible",
-            "Desarrollo full-stack de servidor web con FastAPI, JavaScript and HTML"
+            "Arquitecté e implementé pipeline completo de Computer Vision en C++/Python procesando vídeo Full HD en tiempo real (<50ms latencia) en dispositivos edge NPU, reduciendo costes de hardware en un 70% vs. soluciones GPU",
+            "Diseñé y optimicé modelos custom de detección de objetos y OCR alcanzando 97% de precisión en producción, procesando +15K operaciones/día mediante fine-tuning y transfer learning",
+            "Lideré infraestructura DevOps para +20 dispositivos edge implementando CI/CD con Docker, Ansible y monitorización centralizada, reduciendo tiempo de despliegue",
+            "Desarrollé plataforma web full-stack (FastAPI, WebSocket, WebRTC) gestionando +10 streams simultáneos en tiempo real, reduciendo tiempo de configuración remota en 5x"
           ]
         },
         "exp2": {
@@ -317,10 +427,10 @@
           "company": "Capgemini España SL",
           "period": "2022 - 2023",
           "desc": [
-            "Procesamiento de imágenes para obtención de métricas",
-            "Metodología DevOps, CI/CD y control de versiones con Git",
-            "Diseño de estructuras software para la posterior implementación de funcionalidades",
-            "Tratamiento de datos con librerías como numpy y pandas para modelos ML"
+            "Desarrollé sistema de Computer Vision para control de calidad industrial automatizando medición de métricas en cadena de producción, mejorando precisión y reduciendo tiempos de inspección",
+            "Implementé pipelines CI/CD con metodología DevOps (Git, Docker, Jenkins) para proyecto aeronáutico, asegurando entregas continuas y reduciendo errores en producción",
+            "Diseñé arquitecturas de software escalables y modulares siguiendo principios SOLID y patrones de diseño, facilitando mantenibilidad y extensibilidad del código base",
+            "Construí pipelines de preprocesamiento de datos con NumPy y Pandas para alimentar modelos ML, optimizando rendimiento y calidad de predicciones"
           ]
         },
         "exp3": {
@@ -328,11 +438,11 @@
           "company": "Digitanimal",
           "period": "2020 - 2022",
           "desc": [
-            "Desarrollo en sistemas embebidos y programación de microcontroladores",
-            "Tratamiento de datos generados por sensores",
-            "Diseño de circuitos electrónicos",
-            "Diseño de prototipos para el encapsulado de hardware",
-            "Impresión 3D de prototipos (filamento/resina)"
+            "Diseñé y programé firmware en C para microcontroladores de bajo consumo en productos IoT agro-ganaderos, optimizando autonomía de baterías y comunicación GSM/LoRa/Sigfox",
+            "Desarrollé algoritmos de procesamiento de sensores (GPS, acelerómetro, temperatura) y transmisión eficiente de datos para monitorización de ganado en tiempo real",
+            "Diseñé circuitos electrónicos completos incluyendo esquemáticos, PCBs y validación de prototipos para collares GPS y básculas de auto-pesaje en entornos industriales duros",
+            "Lideré ciclo completo de prototipado desde diseño mecánico 3D (SolidWorks) hasta fabricación con impresión 3D (FDM/resina), iterando rápidamente hasta producto final",
+            "Contribuí en I+D de nuevos productos IoT evaluando viabilidad técnica, desarrollando POCs y acelerando time-to-market de innovaciones hardware-software"
           ]
         }
       }
@@ -430,8 +540,8 @@
       "contact": "Contact"
     },
     "hero": {
-      "title1": "Software Engineer",
-      "title2": "specialized in AI",
+      "title1": "Computer Vision Engineer",
+      "title2": "ML & Edge Computing Specialist",
       "cta1": "View Projects",
       "cta2": "Contact"
     },
@@ -462,14 +572,27 @@
       }
     },
     "objective": {
-      "title": "Objective",
-      "desc": "Research and development of innovative AI-powered products to optimize processes, enhance user experience, and create a positive impact on society"
+      "title": "Professional Profile",
+      "desc": "Computer Vision Engineer with +5 years specialising in real-time AI systems for edge devices. Experience implementing detection, OCR and tracking models in production processing +20 FPS in Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI. Currently at Etra Group optimizing models for NPUs"
     },
     "education": {
       "title": "Education",
       "university": "University of Castilla-La Mancha (UCLM), Toledo",
-      "degree": "Bachelor’s Degree in Industrial Electronics and Automation Engineering",
+      "degree": "Bachelor's Degree in Industrial Electronics and Automation Engineering",
       "specialization": "Specialization in Advanced Electronic Technologies"
+    },
+    "languages": {
+      "title": "Languages",
+      "list": [
+        {
+          "name": "Spanish",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "Technical (documentation, papers, code) | Conversational in development"
+        }
+      ]
     },
     "research_experience": {
       "title": "Engineering, Research, and Development Experience",
@@ -509,7 +632,7 @@
           "date": "August–September 2025",
           "rol": "IA Developer",
               "tech": ["Python", "YOLLO11", "MongoDB", "ffmpeg", "Shared Memory"],
-          "desc": "Real-time traffic light status detection module on NPU edge. Fine-tuning of YOLO11 with custom dataset of 5000+ images for various lighting conditions",
+          "desc": "Real-time traffic light status detection module on NPU edge. Fine-tuning of YOLO11 with custom dataset of +5000 images for various lighting conditions",
           "code": "https://github.com/sfuentescamara/traffic_light",
           "demo": "",
           "metrics": {
@@ -517,7 +640,7 @@
             "latency": "<30ms",
             "streams": "1080p/30fps",
             "optimización": "70% menos CPU",
-            "dataset": "5000+ images"
+            "dataset": "+5000 images"
           },
           "images": ["https://raw.githubusercontent.com/sfuentescamara/traffic_light/refs/heads/develop/output/test_detection.jpg"]
         },
@@ -530,7 +653,7 @@
           "code": "https://github.com/sfuentescamara/people_counting",
           "demo": "https://www.youtube.com/watch?v=Lr4-H-tuMOQ",
           "metrics": {
-            "accuracy": "95%+",
+            "accuracy": "+95%",
             "latency": "<40ms",
             "streams": "4 cameras 1080p"
           },
@@ -562,7 +685,7 @@
           "metrics": {
             "accuracy": "97%",
             "latency": "<50ms",
-            "throughput": "15K+ reads/day",
+            "throughput": "+15K reads/day",
             "resolution": "1080p/+20fps"
           },
           "images": []
@@ -586,8 +709,8 @@
           "code": "",
           "demo": "",
           "metrics": {
-            "streams": "10+ simultaneous",
-            "devices": "20+ monitored",
+            "streams": "+10 simultaneous",
+            "devices": "+20 monitored",
             "setup": "5x faster"
           },
           "images": []
@@ -657,7 +780,7 @@
           "date": "2020",
           "rol": "Software Developer, AI Developer",
             "tech": ["Python", "pytorch", "tensorflow"],
-          "desc": "Gesture control system with Computer Vision and DL. Convolutional neural network trained with 8000+ images reaching 90% accuracy in recognition of different gestures and implementation in Raspberry Pi 4. TFG qualified with Honours",
+          "desc": "Gesture control system with Computer Vision and DL. Convolutional neural network trained with +8000 images reaching 90% accuracy in recognition of different gestures and implementation in Raspberry Pi 4. TFG qualified with Honours",
           "code": "https://github.com/sfuentescamara/TFG",
           "demo": "https://www.youtube.com/watch?v=NW_RYUaRl0w",
           "metrics": {
@@ -677,10 +800,10 @@
           "company": "Grupo Etra",
           "period": "2023 - Present",
           "desc": [
-            "Development of software for real-time video capture and processing. Optimized and implemented on edge devices with low latency",
-            "Development and fine-tuning of AI models (detection and OCR) on AI accelerators and NPUs",
-            "Management and monitoring of edge devices. CI/CD with Docker and Ansible",
-            "Full-stack development of a web server using FastAPI, JavaScript and HTML"
+            "Architected and implemented end-to-end Computer Vision pipeline in C++/Python processing Full HD video in real-time (<50ms latency) on NPU edge devices, reducing hardware costs by 70% vs. GPU solutions",
+            "Designed and optimised custom object detection and OCR models achieving 97% accuracy in production, processing +15K operations/day through fine-tuning and transfer learning",
+            "Led DevOps infrastructure for fleet of +20 edge devices implementing CI/CD with Docker, Ansible, and centralized monitoring, reducing deployment time by Nx where N is the number of devices",
+            "Developed full-stack web platform (FastAPI, WebSocket, WebRTC) managing +10 simultaneous streams in real time, reducing remote configuration time by 5x"
           ]
         },
         "exp2": {
@@ -688,10 +811,10 @@
           "company": "Capgemini España SL",
           "period": "2022 - 2023",
           "desc": [
-            "Image processing for metric extraction",
-            "DevOps methodology, CI/CD, and version control with Git",
-            "Design of software structures for subsequent feature implementation",
-            "Data processing using libraries such as numpy and pandas for ML models"
+            "Developed Computer Vision system for industrial quality control automating metric measurement in production line, improving precision and reducing inspection times",
+            "Implemented CI/CD pipelines with DevOps methodology (Git, Docker, Jenkins) for aeronautical project, ensuring continuous delivery and reducing production errors",
+            "Designed scalable and modular software architectures following SOLID principles and design patterns, facilitating code maintainability and extensibility",
+            "Built data preprocessing pipelines with NumPy and Pandas to feed ML models, optimizing performance and prediction quality"
           ]
         },
         "exp3": {
@@ -699,11 +822,11 @@
           "company": "Digitanimal",
           "period": "2020 - 2022",
           "desc": [
-            "Development on embedded systems and microcontroller programming",
-            "Processing of sensor-generated data",
-            "Design of electronic circuits",
-            "Prototype design for hardware enclosures",
-            "3D printing of prototypes (filament/resin)"
+            "Designed and programmed low-power microcontroller firmware in C for agricultural IoT products, optimizing battery autonomy and GSM/LoRa/Sigfox communication protocols",
+            "Developed sensor processing algorithms (GPS, accelerometer, temperature) and efficient data transmission for real-time livestock monitoring systems",
+            "Designed complete electronic circuits including schematics, PCBs, and prototype validation for GPS collars and self-weighing scales in harsh industrial environments",
+            "Led full prototyping cycle from mechanical 3D design (SolidWorks) to manufacturing with 3D printing (FDM/resin), rapidly iterating to final product",
+            "Contributed to R&D of new IoT products evaluating technical feasibility, developing POCs, and accelerating time-to-market for hardware-software innovations"
           ]
         }
       }
