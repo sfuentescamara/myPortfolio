@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { trackCVDownload, trackContactClick } from '../utils/analytics';
 
 const Hero = ({ data, language, hero, scrollToSection }) => {
   return (
@@ -71,6 +72,7 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
           </button>
           <button
             onClick={() => {
+              trackCVDownload(language);
               const url = language === 'es' ? '/cv/es' : '/cv/en';
               fetch(url)
                 .then((res) => {
@@ -95,13 +97,25 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
 
         {/* social links */}
         <div className="flex justify-center space-x-6 mb-16">
-          <a href={data.github} className="text-white/60 hover:text-white transition-colors">
+          <a
+            href={data.github}
+            onClick={() => trackContactClick('github')}
+            className="text-white/60 hover:text-white transition-colors"
+          >
             <Github size={24} />
           </a>
-          <a href={data.linkedin} className="text-white/60 hover:text-white transition-colors">
+          <a
+            href={data.linkedin}
+            onClick={() => trackContactClick('linkedin')}
+            className="text-white/60 hover:text-white transition-colors"
+          >
             <Linkedin size={24} />
           </a>
-          <a href={`mailto:${data.email}`} className="text-white/60 hover:text-white transition-colors">
+          <a
+            href={`mailto:${data.email}`}
+            onClick={() => trackContactClick('email')}
+            className="text-white/60 hover:text-white transition-colors"
+          >
             <Mail size={24} />
           </a>
         </div>

@@ -136,7 +136,8 @@
           { "name": "JavaScript & HTML/CSS", "level": 80 },
           { "name": "React", "level": 78 },
           { "name": "Flutter", "level": 75 },
-          { "name": "SolidWorks (3D design)", "level": 70 }
+          { "name": "SolidWorks (3D design)", "level": 70 },
+          { "name": "3D Printing (FDM/Resin)", "level": 85 }
         ]
       }
     ]

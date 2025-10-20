@@ -8,6 +8,7 @@ import Experience from './Experience';
 import Testimonials from './Testimonials';
 import Certificates from './Certificates';
 import Contact from './Contact';
+import { trackLanguageChange } from '../utils/analytics';
 
 const Portfolio = ( {data} ) => {
   const [activeSection, setActiveSection] = useState('inicio');
@@ -53,7 +54,11 @@ const Portfolio = ( {data} ) => {
             {/* Language Toggle */}
             <div className="hidden md:flex items-center space-x-4">
               <button
-                onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
+                onClick={() => {
+                  const newLang = language === 'es' ? 'en' : 'es';
+                  setLanguage(newLang);
+                  trackLanguageChange(newLang);
+                }}
                 className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
               >
                 <Globe size={16} />
@@ -79,7 +84,11 @@ const Portfolio = ( {data} ) => {
             {/* Mobile Menu Button & Language */}
             <div className="md:hidden flex items-center space-x-3">
               <button
-                onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
+                onClick={() => {
+                  const newLang = language === 'es' ? 'en' : 'es';
+                  setLanguage(newLang);
+                  trackLanguageChange(newLang);
+                }}
                 className="flex items-center space-x-1 px-2 py-1 rounded bg-white/10"
               >
                 <Globe size={14} />
