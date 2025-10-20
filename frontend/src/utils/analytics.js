@@ -8,6 +8,9 @@
 export const trackEvent = (eventName, eventParams = {}) => {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', eventName, eventParams);
+    console.log('Analytics Event:', eventName, eventParams);
+  } else {
+    console.warn('Google Analytics not loaded. Event:', eventName);
   }
 };
 
