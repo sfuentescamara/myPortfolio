@@ -8,13 +8,18 @@ import Experience from './Experience';
 import Testimonials from './Testimonials';
 import Certificates from './Certificates';
 import Contact from './Contact';
-import { trackLanguageChange } from '../utils/analytics';
+import { initGA, trackLanguageChange } from '../utils/analytics';
 
 const Portfolio = ( {data} ) => {
   const [activeSection, setActiveSection] = useState('inicio');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState({});
   const [language, setLanguage] = useState('es');
+
+  // Inicializar Google Analytics una sola vez
+  useEffect(() => {
+    initGA();
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

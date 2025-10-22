@@ -1,4 +1,22 @@
-// Google Analytics utility functions
+// Google Analytics utility functions using react-ga4
+import ReactGA from 'react-ga4';
+
+// Inicializar Google Analytics
+export const initGA = () => {
+  const measurementId = 'G-GE1HXQCSH6';
+
+  ReactGA.initialize(measurementId, {
+    gaOptions: {
+      debug_mode: true,
+    },
+    gtagOptions: {
+      send_page_view: true,
+    }
+  });
+
+  console.log('✅ Google Analytics inicializado con react-ga4');
+  console.log('📊 ID de medición:', measurementId);
+};
 
 /**
  * Envía un evento personalizado a Google Analytics
@@ -6,11 +24,24 @@
  * @param {object} eventParams - Parámetros adicionales del evento
  */
 export const trackEvent = (eventName, eventParams = {}) => {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('event', eventName, eventParams);
-    console.log('Analytics Event:', eventName, eventParams);
-  } else {
-    console.warn('Google Analytics not loaded. Event:', eventName);
+  try {
+    ReactGA.event(eventName, eventParams);
+    console.log('📊 Analytics Event:', eventName, eventParams);
+  } catch (error) {
+    console.warn('⚠️ Error enviando evento a Google Analytics:', error);
+  }
+};
+
+/**
+ * Trackea una vista de página
+ * @param {string} path - Ruta de la página
+ */
+export const trackPageView = (path) => {
+  try {
+    ReactGA.send({ hitType: 'pageview', page: path });
+    console.log('📄 Page View:', path);
+  } catch (error) {
+    console.warn('⚠️ Error enviando page view:', error);
   }
 };
 
