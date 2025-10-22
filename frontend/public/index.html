@@ -42,8 +42,19 @@
       gtag('config', 'G-M3X024MP9R', {
         'debug_mode': true,
         'cookie_domain': isLocalhost ? 'none' : 'auto',
-        'cookie_flags': 'SameSite=None;Secure'
+        'cookie_flags': 'SameSite=None;Secure',
+        'send_page_view': true
       });
+
+      // Test de conexión - enviar evento inmediato
+      gtag('event', 'test_connection', {
+        'test_param': 'connection_test',
+        'timestamp': new Date().toISOString()
+      });
+
+      console.log('✅ Google Analytics configurado. ID: G-M3X024MP9R');
+      console.log('✅ Hostname:', window.location.hostname);
+      console.log('✅ Debug mode:', true);
     </script>
 
     <!-- Structured Data (JSON-LD) for Google -->
