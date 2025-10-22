@@ -36,7 +36,14 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-M3X024MP9R');
+      // Configuración con manejo de cookies para localhost y producción
+      var isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+      gtag('config', 'G-M3X024MP9R', {
+        'debug_mode': true,
+        'cookie_domain': isLocalhost ? 'none' : 'auto',
+        'cookie_flags': 'SameSite=None;Secure'
+      });
     </script>
 
     <!-- Structured Data (JSON-LD) for Google -->
