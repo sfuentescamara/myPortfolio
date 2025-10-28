@@ -296,8 +296,8 @@
           "date": "2024-2025",
           "rol": "Software developer, IA developer",
               "tech": ["C++", "Python", "MongoDB", "ffmpeg", "GenICam", "Detector de objetos", "OCR"],
-          "desc": "Real-time ALPR system for edge devices. Optimised C++ pipeline integrating detector + OCR with 97% accuracy in varying conditions such as day, night or rain. 1080p/+20fps video processing with <50ms latency using GenICam",
-          "code": "",
+          "desc": "Sistema ALPR en tiempo real para dispositivos de borde. Pipeline C++ optimizado que integra detector + OCR con una precisión del 97% en condiciones variables (noche, lluvia, ángulos oblicuos). Procesamiento de vídeo 1080p/+20fps con latencia <50ms utilizando GenICam",
+          "code": "https://github.com/sfuentescamara/lpr-demo",
           "demo": "",
           "metrics": {
             "precisión": "97%",
@@ -681,7 +681,7 @@
           "rol": "Software Developer, AI Developer",
             "tech": ["C++", "Python", "MongoDB", "ffmpeg", "GenICam", "Object Detector", "OCR"],
           "desc": "Real-time ALPR system for edge devices. Optimised C++ pipeline integrating detector + OCR with 97% accuracy in varying conditions (night, rain, oblique angles). 1080p/+20fps video processing with <50ms latency using GenICam",
-          "code": "",
+          "code": "https://github.com/sfuentescamara/lpr-demo",
           "demo": "",
           "metrics": {
             "accuracy": "97%",
