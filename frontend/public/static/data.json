@@ -803,7 +803,7 @@
           "desc": [
             "Architected and implemented end-to-end Computer Vision pipeline in C++/Python processing Full HD video in real-time (<50ms latency) on NPU edge devices, reducing hardware costs by 70% vs. GPU solutions",
             "Designed and optimised custom object detection and OCR models achieving 97% accuracy in production, processing +15K operations/day through fine-tuning and transfer learning",
-            "Led DevOps infrastructure for fleet of +20 edge devices implementing CI/CD with Docker, Ansible, and centralized monitoring, reducing deployment time by Nx where N is the number of devices",
+            "Led DevOps infrastructure for fleet of +20 edge devices implementing CI/CD with Docker, Ansible, and centralized monitoring, reducing deployment time",
             "Developed full-stack web platform (FastAPI, WebSocket, WebRTC) managing +10 simultaneous streams in real time, reducing remote configuration time by 5x"
           ]
         },

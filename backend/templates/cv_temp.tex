@@ -4,6 +4,8 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
 
 % Configuración de colores
 \definecolor{headercolor}{RGB}{30, 58, 138}
@@ -39,10 +41,10 @@
     \vspace{0.3cm}
     {\large\textit{ Computer Vision Engineer - ML & Edge Computing Specialist }}
 
-    \vspace{0.2cm}
+    \vspace{0.15cm}
     \noindent\makebox[\linewidth]{\color{accentcolor}\rule{0.8\paperwidth}{0.5pt}}
 
-    \vspace{0.2cm}
+    \vspace{0.15cm}
     Madrid, España \quad +34 666 113 180 \quad \href{mailto:s.fuentescamara@gmail.com}{s.fuentescamara@gmail.com}
 
     \href{https://myprofolio-mwfs.onrender.com}{Portfolio: myprofolio-mwfs.onrender.com} \quad \href{https://github.com/sfuentescamara}{Github} \quad \href{https://linkedin.com/in/sergiofuentescamara}{LinkedIn}
@@ -50,33 +52,31 @@
     \noindent\makebox[\linewidth]{\color{accentcolor}\rule{0.8\paperwidth}{0.5pt}}
 \end{center}
 
-\vspace{0.3cm}
-
 % =========================
 % professional profile
 % =========================
-\section*{Perfil Profesional}
-\noindent Computer Vision Engineer con +5 años especializándome en sistemas de IA en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI. Actualmente en Grupo Etra optimizando modelos para NPUs
+\section*{Professional Profile}
+\noindent Computer Vision Engineer with +5 years specialising in real-time AI systems for edge devices. Experience implementing detection, OCR and tracking models in production processing +20 FPS in Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI.
 
-\vspace{0.4cm}
+\vspace{0.05cm}
 
 % =========================
 % experience
 % =========================
-\section*{Experiencia Profesional}
+\section*{Professional Experience}
 \begin{itemize}[leftmargin=0em, itemsep=0.4em, parsep=0em]
 
-  \item[] \textbf{\large Computer Vision Engineer } | \textbf{ Grupo Etra } \hfill \textit{ 2023 - Presente }
+  \item[] \textbf{\large Computer Vision Engineer } | \textbf{ Grupo Etra } \hfill \textit{ 2023 - Present }
 
   \begin{itemize}[leftmargin=1.2em, itemsep=0.05em, parsep=0em, topsep=0.15em]
   
-    \item Arquitecté e implementé pipeline completo de Computer Vision en C++/Python procesando vídeo Full HD en tiempo real (\textless{}50ms latencia) en dispositivos edge NPU, reduciendo costes de hardware en un 70\% vs. soluciones GPU
+    \item Architected and implemented end-to-end Computer Vision pipeline in C++/Python processing Full HD video in real-time (\textless{}50ms latency) on NPU edge devices, reducing hardware costs by 70\% vs. GPU solutions
   
-    \item Diseñé y optimicé modelos custom de detección de objetos y OCR alcanzando 97\% de precisión en producción, procesando +15K operaciones/día mediante fine-tuning y transfer learning
+    \item Designed and optimised custom object detection and OCR models achieving 97\% accuracy in production, processing +15K operations/day through fine-tuning and transfer learning
   
-    \item Lideré infraestructura DevOps para +20 dispositivos edge implementando CI/CD con Docker, Ansible y monitorización centralizada, reduciendo tiempo de despliegue
+    \item Led DevOps infrastructure for fleet of +20 edge devices implementing CI/CD with Docker, Ansible, and centralized monitoring, reducing deployment time
   
-    \item Desarrollé plataforma web full-stack (FastAPI, WebSocket, WebRTC) gestionando +10 streams simultáneos en tiempo real, reduciendo tiempo de configuración remota en 5x
+    \item Developed full-stack web platform (FastAPI, WebSocket, WebRTC) managing +10 simultaneous streams in real time, reducing remote configuration time by 5x
   
   \end{itemize}
 
@@ -84,13 +84,13 @@
 
   \begin{itemize}[leftmargin=1.2em, itemsep=0.05em, parsep=0em, topsep=0.15em]
   
-    \item Desarrollé sistema de Computer Vision para control de calidad industrial automatizando medición de métricas en cadena de producción, mejorando precisión y reduciendo tiempos de inspección
+    \item Developed Computer Vision system for industrial quality control automating metric measurement in production line, improving precision and reducing inspection times
   
-    \item Implementé pipelines CI/CD con metodología DevOps (Git, Docker, Jenkins) para proyecto aeronáutico, asegurando entregas continuas y reduciendo errores en producción
+    \item Implemented CI/CD pipelines with DevOps methodology (Git, Docker, Jenkins) for aeronautical project, ensuring continuous delivery and reducing production errors
   
-    \item Diseñé arquitecturas de software escalables y modulares siguiendo principios SOLID y patrones de diseño, facilitando mantenibilidad y extensibilidad del código base
+    \item Designed scalable and modular software architectures following SOLID principles and design patterns, facilitating code maintainability and extensibility
   
-    \item Construí pipelines de preprocesamiento de datos con NumPy y Pandas para alimentar modelos ML, optimizando rendimiento y calidad de predicciones
+    \item Built data preprocessing pipelines with NumPy and Pandas to feed ML models, optimizing performance and prediction quality
   
   \end{itemize}
 
@@ -98,108 +98,99 @@
 
   \begin{itemize}[leftmargin=1.2em, itemsep=0.05em, parsep=0em, topsep=0.15em]
   
-    \item Diseñé y programé firmware en C para microcontroladores de bajo consumo en productos IoT agro-ganaderos, optimizando autonomía de baterías y comunicación GSM/LoRa/Sigfox
+    \item Designed and programmed low-power microcontroller firmware in C for agricultural IoT products, optimizing battery autonomy and GSM/LoRa/Sigfox communication protocols
   
-    \item Desarrollé algoritmos de procesamiento de sensores (GPS, acelerómetro, temperatura) y transmisión eficiente de datos para monitorización de ganado en tiempo real
+    \item Developed sensor processing algorithms (GPS, accelerometer, temperature) and efficient data transmission for real-time livestock monitoring systems
   
-    \item Diseñé circuitos electrónicos completos incluyendo esquemáticos, PCBs y validación de prototipos para collares GPS y básculas de auto-pesaje en entornos industriales duros
+    \item Designed complete electronic circuits including schematics, PCBs, and prototype validation for GPS collars and self-weighing scales in harsh industrial environments
   
-    \item Lideré ciclo completo de prototipado desde diseño mecánico 3D (SolidWorks) hasta fabricación con impresión 3D (FDM/resina), iterando rápidamente hasta producto final
+    \item Led full prototyping cycle from mechanical 3D design (SolidWorks) to manufacturing with 3D printing (FDM/resin), rapidly iterating to final product
   
-    \item Contribuí en I+D de nuevos productos IoT evaluando viabilidad técnica, desarrollando POCs y acelerando time-to-market de innovaciones hardware-software
+    \item Contributed to R\&D of new IoT products evaluating technical feasibility, developing POCs, and accelerating time-to-market for hardware-software innovations
   
   \end{itemize}
 
 \end{itemize}
 
-\vspace{0.2cm}
+\vspace{0.05cm}
 
 % =========================
 % skills
 % =========================
-\section*{Habilidades Técnicas}
-\begin{itemize}[leftmargin=0em, itemsep=0.35em, parsep=0em, label={}]
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=0em, itemsep=0.75em, parsep=0em, label={}]
 
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ Computer Vision \& IA:}} & $\bullet$ TensorFlow \& PyTorch \quad $\bullet$ Detección de objetos \& Tracking \quad $\bullet$ OpenCV \\
-      & $\bullet$ OCR \quad $\bullet$ Optimización de modelos
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ Computer Vision \& AI:}} \\
+    \footnotesize{$\bullet$ TensorFlow \& PyTorch \quad $\bullet$ Object detection \& Tracking \quad $\bullet$ OpenCV}
+    \quad
+    \footnotesize{$\bullet$ OCR \quad $\bullet$ Model Optimization}
 
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ Edge Computing \& Hardware:}} & $\bullet$ NPU acceleration \quad $\bullet$ Sistemas baja latencia \\
-      & $\bullet$ C/C++ embebido \quad $\bullet$ Microcontroladores \& IoT
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ Edge Computing \& Hardware:}} \\
+    \footnotesize{$\bullet$ NPU acceleration \quad $\bullet$ Low-latency systems}
+    \quad
+    \footnotesize{$\bullet$ Embedded C/C++ \quad $\bullet$ Microcontrollers \& IoT}
 
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ Backend \& APIs:}} & $\bullet$ Python \quad $\bullet$ FastAPI \& REST APIs \quad $\bullet$ WebSockets \& WebRTC \\
-      & $\bullet$ MongoDB \& SQL \quad $\bullet$ Asyncio \& multiprocessing
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ Backend \& APIs:}} \\
+    \footnotesize{$\bullet$ Python \quad $\bullet$ FastAPI \& REST APIs \quad $\bullet$ WebSockets \& WebRTC}
+    \quad
+    \footnotesize{$\bullet$ MongoDB \& SQL \quad $\bullet$ Asyncio \& multiprocessing}
 
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ DevOps \& Cloud:}} & $\bullet$ Docker \quad $\bullet$ Ansible \quad $\bullet$ CI/CD (Git, Jenkins) \\
-      & $\bullet$ AWS \& GCP \quad $\bullet$ Linux \& Bash
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ DevOps \& Cloud:}} \\
+    \footnotesize{$\bullet$ Docker \quad $\bullet$ Ansible \quad $\bullet$ CI/CD (Git, Jenkins)}
+    \quad
+    \footnotesize{$\bullet$ AWS \& GCP \quad $\bullet$ Linux \& Bash}
 
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ Frontend \& Diseño:}} & $\bullet$ JavaScript \& HTML/CSS \quad $\bullet$ React \quad $\bullet$ Flutter \\
-      & $\bullet$ SolidWorks (diseño 3D) \quad $\bullet$ Impresión 3D (FDM/Resina)
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ Frontend \& Design:}} \\
+    \footnotesize{$\bullet$ JavaScript \& HTML/CSS \quad $\bullet$ React \quad $\bullet$ Flutter}
+    \quad
+    \footnotesize{$\bullet$ SolidWorks (3D design) \quad $\bullet$ 3D Printing (FDM/Resin)}
 
 \end{itemize}
-
-\vspace{0.3cm}
 
 % =========================
 % languages
 % =========================
-\section*{Idiomas}
+\section*{Languages}
 \begin{itemize}[leftmargin=0em, itemsep=0.1em, parsep=0em]
 
-  \item[] \textbf{ Español }: Nativo
+  \item[] \textbf{ Spanish }: Native
 
-  \item[] \textbf{ Inglés }: Técnico (documentación, papers, código) | Conversacional en desarrollo
+  \item[] \textbf{ English }: Technical (documentation, papers, code) | Conversational in development
 
 \end{itemize}
-
-\vspace{0.3cm}
 
 % =========================
 % education
 % =========================
-\section*{Formación}
-\noindent \textbf{ GRADO EN INGENIERÍA ELECTRÓNICA INDUSTRIAL Y AUTOMÁTICA }
+\section*{Education}
+\noindent \textbf{ Bachelor's Degree in Industrial Electronics and Automation Engineering }
 
-\noindent \textit{ UCLM Toledo }
+\noindent \textit{ University of Castilla-La Mancha (UCLM), Toledo }
 
-\noindent Mención en tecnologías electrónicas avanzadas
+\noindent Specialization in Advanced Electronic Technologies
 
-\vspace{0.3cm}
+\vspace{0.05cm}
 
 % =========================
 % certificates
 % =========================
-\section*{Certificados y cursos}
+\section*{Certificates and Courses}
 \begin{itemize}[leftmargin=0em, itemsep=0.01em, parsep=0em]
   
   \item[]
-    \footnotesize{\textbf{Desarrollador de TensorFlow}\textit{, DeepLearning.AI} \href{https://coursera.org/share/91c8ac7e282d5da95e8e7dec5380e729}{(link)} \hfill \textit{Agosto 2023}}
+    \footnotesize{\textbf{TensorFlow Developer}\textit{, DeepLearning.AI} \href{https://coursera.org/share/91c8ac7e282d5da95e8e7dec5380e729}{(link)} \hfill \textit{August 2023}}
   
   \item[]
-    \footnotesize{\textbf{Curso iniciación DevOps}\textit{, GitHub/90DaysOfDevOps} \href{https://github.com/MichaelCade/90DaysOfDevOps}{(link)} \hfill \textit{Octubre 2022}}
+    \footnotesize{\textbf{DevOps Fundamentals Course}\textit{, GitHub/90DaysOfDevOps} \href{https://github.com/MichaelCade/90DaysOfDevOps}{(link)} \hfill \textit{October 2022}}
   
   \item[]
-    \footnotesize{\textbf{AWS Computer Vision with GluonCV}\textit{, AWS Training and Certification} \href{https://drive.google.com/file/d/1tZ_E_sO1n-Pi9VzA1FJZbX-ktANQeggb/view?usp=sharing}{(link)} \hfill \textit{Julio 2022}}
+    \footnotesize{\textbf{AWS Computer Vision with GluonCV}\textit{, AWS Training and Certification} \href{https://drive.google.com/file/d/1tZ_E_sO1n-Pi9VzA1FJZbX-ktANQeggb/view?usp=sharing}{(link)} \hfill \textit{July 2022}}
   
   \item[]
-    \footnotesize{\textbf{Image Segmentation with Python and Unsupervised Learning}\textit{, Coursera Project Network} \href{https://coursera.org/share/508c202fdb8d817cfeeb455026dc27e3}{(link)} \hfill \textit{Julio 2022}}
+    \footnotesize{\textbf{Image Segmentation with Python and Unsupervised Learning}\textit{, Coursera Project Network} \href{https://coursera.org/share/508c202fdb8d817cfeeb455026dc27e3}{(link)} \hfill \textit{July 2022}}
   
   \item[]
-    \footnotesize{\textbf{Curso de detección de objetos, Visión por computador}\textit{, Universidad Autónoma de Barcelona} \href{https://www.coursera.org/account/accomplishments/verify/BWNJFRKDSHQM?utm_campaign=copybutton_certificate&utm_medium=certificate&utm_source=link}{(link)} \hfill \textit{Enero 2020}}
+    \footnotesize{\textbf{Object Detection in Computer Vision}\textit{, Autonomous University of Barcelona} \href{https://www.coursera.org/account/accomplishments/verify/BWNJFRKDSHQM?utm_campaign=copybutton_certificate&utm_medium=certificate&utm_source=link}{(link)} \hfill \textit{January 2020}}
   
 \end{itemize}
 

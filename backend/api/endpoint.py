@@ -72,6 +72,7 @@ def generar_cv(lang: str):
         pdf_file = TEMPLATE_DIR / f"{tex_file.stem}.pdf"
 
     except Exception:
+        print("Error generating CV PDF")
         pdf_file = TEMPLATE_DIR / f"cv_{lang}.pdf"
 
     return FileResponse(

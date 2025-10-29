@@ -4,6 +4,8 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
 
 % Configuración de colores
 \definecolor{headercolor}{RGB}{30, 58, 138}
@@ -39,10 +41,10 @@
     \vspace{0.3cm}
     {% raw %}{\large\textit{ {% endraw %}{{lang.hero.title1}} - {{lang.hero.title2}}{% raw %} }}{% endraw %}
 
-    \vspace{0.2cm}
+    \vspace{0.15cm}
     \noindent\makebox[\linewidth]{\color{accentcolor}\rule{0.8\paperwidth}{0.5pt}}
 
-    \vspace{0.2cm}
+    \vspace{0.15cm}
     {{ location }}{% raw %} \quad {% endraw %}{{ phone }} {% raw %}\quad \href{mailto:{% endraw %}{{ email }}{% raw %}}{{% endraw %}{{email}}{% raw %}}{% endraw %}
 
     {% raw %}\href{https://{% endraw %}{{ website }}{% raw %}}{Portfolio: {% endraw %}{{ website }}{% raw %}} \quad \href{{% endraw %}{{ github }}{% raw %}}{Github} \quad \href{{% endraw %}{{ linkedin }}{% raw %}}{LinkedIn}{% endraw %}
@@ -50,15 +52,13 @@
     \noindent\makebox[\linewidth]{\color{accentcolor}\rule{0.8\paperwidth}{0.5pt}}
 \end{center}
 
-\vspace{0.3cm}
-
 % =========================
 % professional profile
 % =========================
 {% raw %}\section*{{% endraw %}{{ lang.objective.title }}{% raw %}}{% endraw %}
 \noindent {{ lang.objective.desc | escape_latex }}
 
-\vspace{0.4cm}
+\vspace{0.05cm}
 
 % =========================
 % experience
@@ -76,23 +76,20 @@
 {% endfor %}
 \end{itemize}
 
-\vspace{0.2cm}
+\vspace{0.05cm}
 
 % =========================
 % skills
 % =========================
 {% raw %}\section*{{% endraw %}{{ lang.skills.title }}{% raw %}}{% endraw %}
-\begin{itemize}[leftmargin=0em, itemsep=0.35em, parsep=0em, label={}]
+\begin{itemize}[leftmargin=0em, itemsep=0.75em, parsep=0em, label={}]
 {% for category in skills_data %}
-  \item
-    \begin{tabular}{@{} p{5cm} p{12.5cm} @{}}
-      {\color{headercolor}\textbf{ {{ category.category | escape_latex }}:}} & {% set half = (category.skills|length / 2)|round(0, 'ceil')|int %}{% for skill in category.skills[:half] %}$\bullet$ {{ skill.name | escape_latex }}{% if not loop.last %} \quad {% endif %}{% endfor %} \\
-      & {% for skill in category.skills[half:] %}$\bullet$ {{ skill.name | escape_latex }}{% if not loop.last %} \quad {% endif %}{% endfor %}
-    \end{tabular}
+  \item{\color{headercolor}\textbf{ {{ category.category | escape_latex }}:}} \\
+    {% raw %}\footnotesize{{% endraw %}{% set half = (category.skills|length / 2)|round(0, 'ceil')|int %}{% for skill in category.skills[:half] %}$\bullet$ {{ skill.name | escape_latex }}{% if not loop.last %} \quad {% endif %}{% endfor %}{% raw %}}{% endraw %}
+    \quad
+    {% raw %}\footnotesize{{% endraw %}{% for skill in category.skills[half:] %}$\bullet$ {{ skill.name | escape_latex }}{% if not loop.last %} \quad {% endif %}{% endfor %}{% raw %}}{% endraw %}
 {% endfor %}
 \end{itemize}
-
-\vspace{0.3cm}
 
 % =========================
 % languages
@@ -104,8 +101,6 @@
 {% endfor %}
 \end{itemize}
 
-\vspace{0.3cm}
-
 % =========================
 % education
 % =========================
@@ -116,7 +111,7 @@
 
 \noindent {{ lang.education.specialization | escape_latex }}
 
-\vspace{0.3cm}
+\vspace{0.05cm}
 
 % =========================
 % certificates
