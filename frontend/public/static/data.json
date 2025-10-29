@@ -69,7 +69,7 @@
           { "name": "Docker", "level": 85 },
           { "name": "Ansible", "level": 80 },
           { "name": "CI/CD (Git, Jenkins)", "level": 85 },
-          { "name": "AWS & GCP", "level": 75 },
+          { "name": "AWS, GCP & Azure", "level": 75 },
           { "name": "Linux & Bash", "level": 90 }
         ]
       },
@@ -195,7 +195,7 @@
     },
     "objective": {
       "title": "Perfil Profesional",
-      "desc": "Computer Vision Engineer con +5 años especializándome en sistemas de IA en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI. Actualmente en Grupo Etra optimizando modelos para NPUs"
+      "desc": "Computer Vision Engineer con +5 años especializándome en sistemas de IA en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI."
     },
     "education": {
       "title": "Formación",
@@ -574,7 +574,7 @@
     },
     "objective": {
       "title": "Professional Profile",
-      "desc": "Computer Vision Engineer with +5 years specialising in real-time AI systems for edge devices. Experience implementing detection, OCR and tracking models in production processing +20 FPS in Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI. Currently at Etra Group optimizing models for NPUs"
+      "desc": "Computer Vision Engineer with +5 years specialising in real-time AI systems for edge devices. Experience implementing detection, OCR and tracking models in production processing +20 FPS in Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI."
     },
     "education": {
       "title": "Education",
