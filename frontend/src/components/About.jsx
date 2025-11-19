@@ -1,4 +1,4 @@
-import { Brain, Code, Database, Microchip } from 'lucide-react';
+import { Brain, CloudCog, Database, Microchip } from 'lucide-react';
 
 const About = ({ language, data }) => {
   return (
@@ -27,7 +27,7 @@ const About = ({ language, data }) => {
             </div>
 
             <div className="p-6 bg-white/5 rounded-lg backdrop-blur-sm text-center">
-              <Code className="w-12 h-12 text-blue-400 mb-4 mx-auto" />
+              <CloudCog className="w-12 h-12 text-blue-400 mb-4 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">{data.card2.title}</h3>
               <p className="text-white/70">{data.card2.desc}</p>
             </div>

@@ -69,7 +69,7 @@
           { "name": "Docker", "level": 85 },
           { "name": "Ansible", "level": 80 },
           { "name": "CI/CD (Git, Jenkins)", "level": 85 },
-          { "name": "AWS, GCP & Azure", "level": 75 },
+          { "name": "AWS, GCP & Azure", "level": 80 },
           { "name": "Linux & Bash", "level": 90 }
         ]
       },
@@ -164,8 +164,8 @@
       "contacto": "Contacto"
     },
     "hero": {
-      "title1": "Computer Vision Engineer",
-      "title2": "ML & Edge Computing Specialist",
+      "title1": "IA Software Engineer",
+      "title2": "DevOps & Edge Computing Specialist",
       "cta1": "Ver Proyectos",
       "cta2": "Contactar"
     },
@@ -174,15 +174,15 @@
       "p1": "Soy un ingeniero de software apasionado por la inteligencia artificial y el machine learning, con más de 5 años de experiencia desarrollando soluciones innovadoras en proyectos de computer vision, edge computing y cloud computing.",
       "p2": "Mi objetivo es la inverstigación y desarrollo de productos innovadores impulsados por inteligencia artificial para optimizar procesos, mejorar la experiencia de usuario y generar impacto positivo en la sociedad.",
       "p3": "Mi experiencia abarca desde el diseño de arquitecturas hasta la implementación en producción, siempre enfocándome en crear soluciones escalables y eficientes.",
-      "p4": "Mi trayectoria incluye colaboraciones exitosas en el desarrollo de proyectos de IoT y sistemas embebidos, complementación con diseño hardware, mecánico y web en algunos casos y diseño, entrenamiento y uso de modelos de ML para la detección de objetos, clasificación de imágenes y OCR.",
+      "p4": "Mi trayectoria incluye colaboraciones exitosas en el desarrollo de proyectos de IoT y sistemas embebidos, complementación con diseño hardware, mecánico y web en algunos casos, además de integración, optimización y despliegue de modelos de ML.",
       "p5": "Mi futuro es seguir creciendo en el ámbito de la inteligencia artificial y el aprendizaje automático para aplicar estas tecnologías en soluciones de vanguardia.",
       "card1": {
         "title": "Machine Learning",
         "desc": "Desarrollo de modelos predictivos, detección y clasificación"
       },
       "card2": {
-        "title": "Full Stack Development",
-        "desc": "Aplicaciones web completas con integración de IA"
+        "title": "DevOps",
+        "desc": "Automatización de despliegues, integración continua y gestión eficiente de infraestructura"
       },
       "card3": {
         "title": "Big Data & Analytics",
@@ -195,7 +195,7 @@
     },
     "objective": {
       "title": "Perfil Profesional",
-      "desc": "Computer Vision Engineer con +5 años especializándome en sistemas de IA en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI."
+      "desc": "IA Software Engineer con +5 años especializándome en sistemas en tiempo real para dispositivos edge. Experiencia implementando modelos de detección, OCR y tracking en producción procesando +20 FPS en Full HD. Stack: Python, C++, PyTorch, DevOps, Azure."
     },
     "education": {
       "title": "Formación",
@@ -541,8 +541,8 @@
       "contact": "Contact"
     },
     "hero": {
-      "title1": "Computer Vision Engineer",
-      "title2": "ML & Edge Computing Specialist",
+      "title1": "IA Software Engineer",
+      "title2": "DevOps & Edge Computing Specialist",
       "cta1": "View Projects",
       "cta2": "Contact"
     },
@@ -551,7 +551,7 @@
       "p1": "I am a software engineer passionate about artificial intelligence and machine learning, with over 5 years of experience developing innovative solutions in computer vision, edge computing, and cloud computing projects.",
       "p2": "My goal is the research and development of innovative products driven by artificial intelligence to optimise processes, improve user experience and generate positive impact on society.",
       "p3": "My experience ranges from architectural design to production implementation, always focusing on creating scalable and efficient solutions.",
-      "p4": "My background includes successful collaborations in the development of IoT and embedded systems projects, complemented in some cases by hardware, mechanical, and web design, as well as the design, training, and use of ML models for object detection, image classification, and OCR.",
+      "p4": "My career includes successful collaborations in the development of IoT projects and embedded systems, complemented by hardware, mechanical and web design in some cases, as well as the integration, optimisation and deployment of ML models.",
       "p5": "My future is to continue growing in the field of artificial intelligence and machine learning to apply these technologies in cutting-edge solutions.",
       "projects": "ML Projects",
       "years": "Years Experience",
@@ -560,8 +560,8 @@
         "desc": "Development of predictive models, detection, and classification"
       },
       "card2": {
-        "title": "Full Stack Development",
-        "desc": "Complete web applications with AI integration"
+        "title": "DevOps",
+        "desc": "Automation of deployments, continuous integration, and efficient infrastructure management"
       },
       "card3": {
         "title": "Big Data & Analytics",
@@ -574,7 +574,7 @@
     },
     "objective": {
       "title": "Professional Profile",
-      "desc": "Computer Vision Engineer with +5 years specialising in real-time AI systems for edge devices. Experience implementing detection, OCR and tracking models in production processing +20 FPS in Full HD. Stack: Python, TensorFlow, PyTorch, Docker, FastAPI."
+      "desc": "AI Software Engineer with over 5 years' experience specialising in real-time systems for edge devices. Experience implementing detection, OCR and tracking models in production, processing over 20 FPS in Full HD. Stack: Python, C++, PyTorch, DevOps, Azure."
     },
     "education": {
       "title": "Education",
