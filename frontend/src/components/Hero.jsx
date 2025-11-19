@@ -74,20 +74,7 @@ const Hero = ({ data, language, hero, scrollToSection }) => {
             onClick={() => {
               trackCVDownload(language);
               const url = language === 'es' ? '/cv/es' : '/cv/en';
-              fetch(url)
-                .then((res) => {
-                  if (!res.ok) throw new Error('Error descargando CV');
-                  return res.blob();
-                })
-                .then((blob) => {
-                  const link = document.createElement('a');
-                  link.href = window.URL.createObjectURL(blob);
-                  link.download = language === 'es' ? 'CV_Español.pdf' : 'CV_English.pdf';
-                  document.body.appendChild(link);
-                  link.click();
-                  link.remove();
-                })
-                .catch((err) => console.error(err));
+              window.open(url, '_blank');
             }}
             className="px-8 py-4 border-2 border-white/30 rounded-full font-semibold hover:bg-white/10 transition-colors"
           >
