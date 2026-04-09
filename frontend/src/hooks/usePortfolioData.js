@@ -4,7 +4,7 @@ export default function usePortfolioData() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('https://sfuentescamara.github.io/portfolio-content/data.json')
+    fetch('https://sfuentescamara.github.io/portfolio-content/static/data.json')
       .then((res) => res.json())
       .then(setData);
   }, []);
